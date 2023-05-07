@@ -9,15 +9,23 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   address: >
-    <p>555 your office number</p>
+    <p>Paris, IDF/p>
     <p>123 your address street</p>
     <p>Your City, State 12345</p>
 
 news: true  # includes a list of news items
 latest_posts: true  # includes a list of the newest posts
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: False # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
+
+Hey there ! I am Zahra, a 23-year-old [smart systems engineering](https://sciences.sorbonne-universite.fr/formation-sciences/offre-de-formation/masters/master-automatique-robotique/parcours-ingenierie-des) major at [Sorbonne University](https://www.sorbonne-universite.fr/in) paris. 
+
+I got my undergraduate degree from the same university in [Electrical Engineering] (https://sciences.sorbonne-universite.fr/formation-sciences/offre-de-formation/licences/licences-generales-l2-l3/licence-delectronique) in 2021 where I have acquired skills in electronics,embeded systems and basics of robotics and control theory. My current major focuses on audio signal processing, computer vision and Deep Learning. 
+
+I’m currently working, as a part time apprentice, at [Renault group](https://www.renaultgroup.com/) on AI based quality control scalable systems to optimize the manufacturing processes in the plants.
+
+
 
 Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
