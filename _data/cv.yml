@@ -32,21 +32,36 @@
         - Electromagnitism, wave propagation & Antennas
         - 
 
-- title: Experience
+- title: Professional Experience
   type: time_table
   contents:
     - title: AI engineer apprentice
       institution: Renault Group, Technocentre Renault, Guyancourt, France
       year: 2021 - 2023
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
+        - Introducing AI solutions for the manufacturing industry
+        - Framing complex industy problems, definng the scope of the projects, success criteria to ensure factory's satisfaction
+        - Helping the team create an MLOps platfom to deploy the solutions at large scale.
+        - title: Using Google Cloud Platform to create machine learning models for visual inspection systems.
           contents:
-            - Sub-description 1.
-            - Sub-description 2.
+            - Vertex AI.
+            - Visiul Inspection AI.
 
-- title: Open Source Projects
+- title: Software Skills
+  type: time_table
+  contents:
+    - title: Machine Leaning
+      year: 
+      description: 
+      - A beautiful, simple, clean, and responsive Jekyll theme for academics.
+      - title: Using Google Cloud Platform to create machine learning models for visual inspection systems.
+          contents:
+            - Vertex AI.
+            - Visiul Inspection AI.
+
+
+
+- title: Academic Projects
   type: time_table
   contents:
     - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
