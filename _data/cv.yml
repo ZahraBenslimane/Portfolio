@@ -11,22 +11,26 @@
 - title: Education
   type: time_table
   contents:
-    - title: Master's
+    - title: Master's degree | Smart Systems Engineering
       institution: Sorbonne University, Paris, France
       year: 2023
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
+        - Machine/Deep Learning
+        - Image Processing & Computer Vision
+        - Audio Signals Processing
+        - title: Machine/Deep Learning
           contents:
-            - Sub-description 1.
+            - Neural Networks.
             - Sub-description 2.
-    - title: Undergraduate degre, Electronics, Electrical Engineering and Automatics
+    - title: Undergraduate degre | Electronics, Electrical Engineering and Automatics
       institution: Sorbonne University, Paris, France
       year: 2021
       description:
-        - Description 1.
-        - Description 2.
+        - Digital Systems & Microprocessors
+        - Analog & Digital Electronics
+        - Robotics & Control Theory.
+        - Electromagnitism, wave propagation & Antennas
+        - 
 
 - title: Experience
   type: time_table
@@ -49,29 +53,14 @@
       year: 2015-now
       description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
 
-
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
-      items: 
-        - Max Planck Medal 
-
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: Deep Learning.
+    - title: TinyML Applications & Neural Networks compression methods
       items: 
-        - title: Neural Networks compression methods.
-          contents:
-            - Pruning
-            - Folding
-            - Knowledge distillation
-        - Tiny ML applications 
+        - Pruning
+        - Folding
+        - Knowledge distillation
 
 - title: Other Interests
   type: list
