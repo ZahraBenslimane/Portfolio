@@ -21,7 +21,7 @@ social: true  # includes social icons at the bottom of the page
 
 Hey there ! I am Zahra, a 23-year-old [smart systems engineering](https://sciences.sorbonne-universite.fr/formation-sciences/offre-de-formation/masters/master-automatique-robotique/parcours-ingenierie-des) major at [Sorbonne University](https://www.sorbonne-universite.fr/in) paris. 
 
-I got my undergraduate degree from the same university in [Electrical Engineering] (https://sciences.sorbonne-universite.fr/formation-sciences/offre-de-formation/licences/licences-generales-l2-l3/licence-delectronique) in 2021 where I have acquired skills in electronics,embeded systems and basics of robotics and control theory. My current major focuses on audio signal processing, computer vision and Deep Learning. 
+I got my undergraduate degree from the same university in [Electrical Engineering](https://sciences.sorbonne-universite.fr/formation-sciences/offre-de-formation/licences/licences-generales-l2-l3/licence-delectronique) in 2021 where I have acquired skills in electronics,embeded systems and basics of robotics and control theory. My current major focuses on audio signal processing, computer vision and Deep Learning. 
 
 I’m currently working, as a part time apprentice, at [Renault group](https://www.renaultgroup.com/) on AI based quality control scalable systems to optimize the manufacturing processes in the plants.
 
