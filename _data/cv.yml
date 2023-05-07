@@ -47,19 +47,6 @@
             - Vertex AI.
             - Visiul Inspection AI.
 
-- title: Software Skills
-  type: time_table
-  contents:
-    - title: Machine Leaning
-      year: 
-      description: 
-      - A beautiful, simple, clean, and responsive Jekyll theme for academics.
-      - title: Using Google Cloud Platform to create machine learning models for visual inspection systems.
-          contents:
-            - Vertex AI.
-            - Visiul Inspection AI.
-
-
 
 - title: Academic Projects
   type: time_table
