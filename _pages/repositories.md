@@ -16,6 +16,7 @@ nav_order: 3
   {% endfor %}
 </div>
 
+<!---
 ---
 
 {% if site.repo_trophies.enabled %}
@@ -28,10 +29,12 @@ nav_order: 3
   </div>
 
   ---
+-->
 
 {% endfor %}
 {% endif %}
 {% endif %}
+
 
 ## GitHub Repositories
 
