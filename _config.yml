@@ -128,7 +128,7 @@ permalink: /blog/:year/:title/
 
 # Pagination
 pagination:
-  enabled: true
+  enabled: False
 
 related_blog_posts:
   enabled: true
@@ -262,7 +262,7 @@ jekyll-archives:
     tag: '/blog/tag/:name/'
     category: '/blog/category/:name/'
 
-display_tags: ['Image-Processing', 'Sound-Processing', 'Deep-Learning', 'Compter-Vision'] # this tags will be dispalyed on the front page of your blog
+display_tags: ['Image-Processing', 'Sound-Processing', 'Deep-Learning', 'Compter-Vision','paper-summary'] # this tags will be dispalyed on the front page of your blog
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
