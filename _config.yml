@@ -79,7 +79,7 @@ linkedin_username: zahra-benslimane-2014631a6 # your LinkedIn user name
 telegram_username: # your Telegram user name
 scholar_userid: # your Google Scholar ID
 semanticscholar_id: # your Semantic Scholar ID
-whatsapp_number: +33 784980491 # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
+whatsapp_number: +33784980491 # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
 orcid_id: # your ORCID ID
 medium_username: zahrahafida.benslimane # your Medium username
 quora_username: # your Quora username
@@ -123,8 +123,7 @@ bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
 
 blog_name: Blog Posts # blog_name will be displayed in your blog page
 blog_nav_title: blog # your blog must have a title for it to be displayed in the nav bar
-blog_description: Welcome to my academic blog, where I share my passion for exploring the remarkable realms of AI, applied mathematics
-and cutting-edge technologies. Through this blog, I provide valuable insights and showcase my academic journey in these transformative fields.
+blog_description: Welcome to my academic blog, where I share my passion for exploring the remarkable realms of AI, applied mathematics and cutting-edge technologies. Through this blog, I provide valuable insights and showcase my academic journey in these transformative fields.
 Join me as I share project experiences and highlight the fascinating applications of AI.
 permalink: /blog/:year/:title/
 
