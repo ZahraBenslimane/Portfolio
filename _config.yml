@@ -123,7 +123,7 @@ bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
 
 blog_name: Blog Posts # blog_name will be displayed in your blog page
 blog_nav_title: blog # your blog must have a title for it to be displayed in the nav bar
-blog_description: 
+blog_description: Welcome to my blog, where I share my passion for exploring the remarkable realms of AI, applied mathematics and cutting-edge technologies. Through this blog, I provide valuable insights and showcase my academic journey in these transformative fields. Join me as I share project experiences and highlight the fascinating applications of AI.
 permalink: /blog/:year/:title/
 
 # Pagination
