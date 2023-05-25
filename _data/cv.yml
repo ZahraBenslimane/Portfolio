@@ -37,12 +37,11 @@
       institution: Sorbonne University, Paris, France
       year: 2021
       description:
-        - Digital systems & microprocessors
         - title: Digital systems & microprocessors
           contents:
             - FPGAs, VHDL, Finite State Machine, memories and processors architechure
             - Interrupts,  timers, memory management, peripherals and communication protocols, input/output (I/O) operations, and low-level programming.  
-        - title: Analog & digital eElectronics 
+        - title: Analog & digital electronics 
           contents:
             - Circuits and components, analog signals and waveforms, Op-Amps, semiconductors ...
             - Boolean algebra, Combinational and sequential logic, Logic gates, digital integrated circuits ...
@@ -77,9 +76,27 @@
 - title: Academic Projects
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: <a href="https://github.com/ZahraBenslimane/Neural-Machine-Translation-by-Jointly-Learning-to-Align-and-Translate">Neural Machine Translation</a>
+      year: Dec 2022
+      description: Implemented the Neural Machine Translation By Jointly Learning To Align And Translate paper.\
+       Used a sequence to sequence neural network model with the Bahdanau attention mechanism introduced in the paper.\
+       Got comfortable with natural language processing tasks such as tokenization, word embedding and computing bleu scores.
+
+    - title: <a href="https://github.com/ZahraBenslimane/underwater-image-analysis">Under Water Image Analysis</a>
+      year: Nov 2022 - Fev 2023
+      description: Used image processing tools and neural networks for deep sea species detection, segmentation and tracking. A stereo camera system was used for estimating the size of the species.
+
+    - title: Augmented Reality 
+      year: Dec 2021 - Jan 2022
+      description: Succeeded to insert 3D objetcs within a pre-recorded video by using the Direct Linear Transform (DLT) algorithm and Zhang's method to \
+      estimate the projection matrices and multiple image processing methods for marker tracking.
+
+    - title: <a href="https://github.com/ZahraBenslimane/Wire-guided-Robot">Wire Guided Delivery Robot</a>
+      year: Mai 2021
+      description: Designed, from scratch, different sensor circuits such as ultrasonic obstacle detection, inductive guidance system for driving and others modules to interact with environnement based on DTMF code and morse code.
+
+
+
 
 - title: Academic Interests
   type: nested_list
