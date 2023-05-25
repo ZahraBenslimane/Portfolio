@@ -78,9 +78,7 @@
   contents:
     - title: <a href="https://github.com/ZahraBenslimane/Neural-Machine-Translation-by-Jointly-Learning-to-Align-and-Translate">Neural Machine Translation</a>
       year: Dec 2022
-      description: Implemented the Neural Machine Translation By Jointly Learning To Align And Translate paper.\
-       Used a sequence to sequence neural network model with the Bahdanau attention mechanism introduced in the paper.\
-       Got comfortable with natural language processing tasks such as tokenization, word embedding and computing bleu scores.
+      description: Implemented the Neural Machine Translation By Jointly Learning To Align And Translate paper. Used a sequence to sequence neural network model with the Bahdanau attention mechanism introduced in the paper. Got comfortable with natural language processing tasks such as tokenization, word embedding and computing bleu scores.
 
     - title: <a href="https://github.com/ZahraBenslimane/underwater-image-analysis">Under Water Image Analysis</a>
       year: Nov 2022 - Fev 2023
@@ -88,14 +86,11 @@
 
     - title: Augmented Reality 
       year: Dec 2021 - Jan 2022
-      description: Succeeded to insert 3D objetcs within a pre-recorded video by using the Direct Linear Transform (DLT) algorithm and Zhang's method to \
-      estimate the projection matrices and multiple image processing methods for marker tracking.
+      description: Succeeded to insert 3D objetcs within a pre-recorded video by using the Direct Linear Transform (DLT) algorithm and Zhang's method to estimate the projection matrices and multiple image processing methods for marker tracking.
 
     - title: <a href="https://github.com/ZahraBenslimane/Wire-guided-Robot">Wire Guided Delivery Robot</a>
       year: Mai 2021
       description: Designed, from scratch, different sensor circuits such as ultrasonic obstacle detection, inductive guidance system for driving and others modules to interact with environnement based on DTMF code and morse code.
-
-
 
 
 - title: Academic Interests
