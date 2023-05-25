@@ -26,7 +26,7 @@
             - Motion detection and estimation techniques, block matching, Lucas-Kanade and Horn- Schunck approches.
             - Object tracking with Kalman and particle filters.
             - Nvidia Jetson Nano for real time image processing.
-            - Python libraries :  OpenCV, PIL/Pillow, scikitimage
+            - Python libraries ; OpenCV, PIL/Pillow, scikitimage
         - title: Audio Signal Processing
           contents:
             - Time-Frequency analysis and audio compression. 
@@ -38,10 +38,28 @@
       year: 2021
       description:
         - Digital systems & microprocessors
-        - Analog & digital eElectronics
-        - Robotics & control theory.
-        - Electromagnitism, wave propagation & antenna radiation 
+        - title: Digital systems & microprocessors
+          contents:
+            - FPGAs, VHDL, Finite State Machine, memories and processors architechure
+            - Interrupts,  timers, memory management, peripherals and communication protocols, input/output (I/O) operations, and low-level programming.  
+        - title: Analog & digital eElectronics 
+          contents:
+            - Circuits and components, analog signals and waveforms, Op-Amps, semiconductors ...
+            - Boolean algebra, Combinational and sequential logic, Logic gates, digital integrated circuits ...
+        - title: Robotics & control theory.
+          contents:
+            - Robot trajectory planning
+            - Mathematical modeling of physical systems & PID tuning with SIMULINK.
+        - Electromagnitism, wave propagation & antenna radiation    
         - Signal processing
+        - title: Skills.
+          contents:
+            - Oscilloscopes and multimeters, AC/DC power souces, Soldering and Wiring.
+            - Xilinx Vivado used for hardware description in VHDL to configure an Artix-7 FPGA (Nexys 4DDR board) + Modelsim for testbenches.
+            - Cadence Orcad(PSpice et Capture) + LTspice for digital & analog design and simulation.
+            - Keil μVision4 IDE, used to run and debug embedded software to program an LPC2378 (32-bit RISC Microcontroller on a MCB2300 evaluation board).
+            - Circut design on PCB (Printed Circuit Board) using Eagle (CAD software).
+            - Experimented with 4NEC2 for antenna modelling.
 
 - title: Professional Experience
   type: time_table
