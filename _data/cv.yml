@@ -93,25 +93,16 @@
       description: Designed, from scratch, different sensor circuits such as ultrasonic obstacle detection, inductive guidance system for driving and others modules to interact with environnement based on DTMF code and morse code.
 
 
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: TinyML Applications & Neural Networks compression methods
-      items: 
-        - Pruning
-        - Folding
-        - Knowledge distillation
+# - title: Academic Interests
+#   type: nested_list
+#   contents:
+#     - title: TinyML Applications & Neural Networks compression methods
+#       items: 
+#         - Pruning
+#         - Folding
+#         - Knowledge distillation
 
-- title: Software Skills
-  type: nested_list
-  contents:
-    - title: TinyML Applications & Neural Networks compression methods
-      items: 
-        - Pruning
-        - Folding
-        - Knowledge distillation
-
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Organizing and playing Volley ball games
+# - title: Other Interests
+#   type: list
+#   contents:
+#     - <u>Hobbies:</u> Organizing and playing Volley ball games
