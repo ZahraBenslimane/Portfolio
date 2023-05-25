@@ -15,22 +15,33 @@
       institution: Sorbonne University, Paris, France
       year: 2023
       description:
-        - Machine/Deep Learning
-        - Image Processing & Computer Vision
-        - Audio Signals Processing
         - title: Machine/Deep Learning
           contents:
-            - Neural Networks.
-            - Sub-description 2.
+            - Frameworks and libraries ; Tensorflow, pytorch, keras, pandas and scikit learn.
+            - Familiar with MLPs, CNNs, RNNs, Auto-Encoders ,GANs.
+            - Experimented with Neural Networks compression methods ; Folding, pruning and Quantization.
+        - title: Image Processing & Computer Vision
+          contents:
+            - Mastered basic concepts such as image stiching, blob detection, regions of interest ..
+            - Motion detection and estimation techniques, block matching, Lucas-Kanade and Horn- Schunck approches.
+            - Object tracking with Kalman and particle filters.
+            - Nvidia Jetson Nano for real time image processing.
+            - Python libraries :  OpenCV, PIL/Pillow, scikitimage
+        - title: Audio Signal Processing
+          contents:
+            - Time-Frequency analysis and audio compression. 
+            - Beamforming, Time Delay Of Arrival (TDOA) estimation for Sound source localization.
+            - Implemented an audio source separation using NMF(Non-Negative Matrix Multiplication) algorithm.
+        
     - title: Undergraduate degre | Electronics, Electrical Engineering and Automatics
       institution: Sorbonne University, Paris, France
       year: 2021
       description:
-        - Digital Systems & Microprocessors
-        - Analog & Digital Electronics
-        - Robotics & Control Theory.
-        - Electromagnitism, wave propagation & Antennas
-        - 
+        - Digital systems & microprocessors
+        - Analog & digital eElectronics
+        - Robotics & control theory.
+        - Electromagnitism, wave propagation & antenna radiation 
+        - Signal processing
 
 - title: Professional Experience
   type: time_table
@@ -42,11 +53,8 @@
         - Introducing AI solutions for the manufacturing industry
         - Framing complex industy problems, definng the scope of the projects, success criteria to ensure factory's satisfaction
         - Helping the team create an MLOps platfom to deploy the solutions at large scale.
-        - title: Using Google Cloud Platform to create machine learning models for visual inspection systems.
-          contents:
-            - Vertex AI.
-            - Visiul Inspection AI.
-
+        - Using Google Cloud Platform to create machine learning models for visual inspection systems. [ Vertex AI / Visual Inspection AI ]
+          
 
 - title: Academic Projects
   type: time_table
