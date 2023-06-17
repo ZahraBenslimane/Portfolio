@@ -2,24 +2,26 @@
 <html lang="en">
 
   <!-- Head -->
-  <head>    <!-- Metadata, OpenGraph and Schema.org -->
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">    <!-- Metadata, OpenGraph and Schema.org -->
     
 
     <!-- Standard metadata -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>
-        blog | Zahra Benslimane</title>
-    <meta name="author" content="Zahra H. Benslimane" />
-    <meta name="description" content="A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
-" />
-    <meta name="keywords" content="jekyll, jekyll-theme, academic-website, portfolio-website" />
+    <title>Brief Summary | Distilling the Knowledge in a Neural Network | Zahra Benslimane</title>
+    <meta name="author" content="Zahra H. Benslimane">
+    <meta name="description" content="This is a brief summary of the &lt;a href=" https:>
+</head>
+<body>
+<p>Distilling the Knowledge in a Neural Network paper." /&gt;
+    <meta name="keywords" content="jekyll, jekyll-theme, academic-website, portfolio-website">
 
 
     <!-- Bootstrap & MDB -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-DF7Zhf293AJxJNTmh5zhoYYIMs2oXitRfBjY+9L//AY=" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/css/mdb.min.css" integrity="sha256-jpjYvU3G3N6nrrBwXJoVEYI/0zw8htfFnhT9ljN3JJw=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/css/mdb.min.css" integrity="sha256-jpjYvU3G3N6nrrBwXJoVEYI/0zw8htfFnhT9ljN3JJw=" crossorigin="anonymous">
 
     <!-- Bootstrap Table -->
     <link defer rel="stylesheet" href="https://unpkg.com/bootstrap-table@1.21.3/dist/bootstrap-table.min.css">
@@ -30,29 +32,29 @@
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons">
 
     <!-- Code Syntax Highlighting -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jwarby/jekyll-pygments-themes@master/github.css" media="" id="highlight_theme_light" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jwarby/jekyll-pygments-themes@master/github.css" media="" id="highlight_theme_light">
 
     
 
     <!-- Styles -->
     
-    <link rel="shortcut icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>👩‍💻</text></svg>">
+    <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22&gt;&lt;text%20y=%22.9em%22%20font-size=%2290%22&gt;%F0%9F%91%A9%E2%80%8D%F0%9F%92%BB&lt;/text&gt;&lt;/svg&gt;">
     
     <link rel="stylesheet" href="/Portfolio/assets/css/main.css">
-    <link rel="canonical" href="https://zahrabenslimane.github.io/Portfolio/blog/">
+    <link rel="canonical" href="https://zahrabenslimane.github.io/Portfolio/blog/2023/KD/">
 
     <!-- Dark Mode -->
     
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jwarby/jekyll-pygments-themes@master/native.css" media="none" id="highlight_theme_dark" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jwarby/jekyll-pygments-themes@master/native.css" media="none" id="highlight_theme_dark">
 
     <script src="/Portfolio/assets/js/theme.js"></script>
     <script src="/Portfolio/assets/js/dark_mode.js"></script>
     
 
-  </head>
+  
 
   <!-- Body -->
-  <body class="fixed-top-nav ">
+  </p>
 
     <!-- Header -->
     <header>
@@ -114,165 +116,84 @@
     <!-- Content -->
     <div class="container mt-5">
       
-        <div class="post">
+        <!-- _layouts/post.html -->
+
+<div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Brief Summary | Distilling the Knowledge in a Neural Network</h1>
+    <p class="post-meta">May 7, 2023</p>
+    <p class="post-tags">
+      <a href="/Portfolio/blog/2023"> <i class="fas fa-calendar fa-sm"></i> 2023 </a>
+        ·  
+        <a href="/Portfolio/blog/tag/paper-summary">
+          <i class="fas fa-hashtag fa-sm"></i> paper-summary</a>  
+          
+        ·  
+        <a href="/Portfolio/blog/category/sample-posts">
+          <i class="fas fa-tag fa-sm"></i> sample-posts</a>  
+          
+
+    </p>
+  </header>
+
+  <article class="post-content">
+    
+    <div id="markdown-content">
+      <p>Paper : <a href="https://arxiv.org/abs/1503.02531" rel="external nofollow noopener" target="_blank">Distilling the Knowledge in a Neural Network</a></p>
+
+<p>The authors proposed an architecture-agnostic technique called knowledge distillation, which involves training a
+small model to mimic the behavior of a cumbersome model, referring to a single large model or an ensemble of
+models. To train the small model to generalize in the same way as the cumbersome model, it is as important to
+learn the target outputs of the model, as it is to learn the ratios of the small probabilities of the incorrect targets.
+However, these small probabilities tend to be suppressed by the softmax function that greatly highlights the value of
+the maximum output logit, minimizing their influence on the cross-entropy cost function. The authors figured that
+by raising the temperature parameter in the final softmax function, it produces a softer probability distribution over
+classes, called soft targets, resulting in a higher entropy, thus, more information to learn from.</p>
+
+<p>The main idea is to first train a large network with a softmax temperature equal to 1, then feed a transfer set of unlabeled or labeled data to this model and compute their soft targets with a temperature T, higher than one. Knowledge is
+then transferred to the small model, by training it to align its soft targets, computed with the same high-temperature
+T used for generating the transfer set, with the soft targets produced by the cumbersome model. A weighted average
+of two objective functions is used for training the distilled model, the cross entropy of the soft targets of the two
+models, and the cross entropy of the distilled model with the correct target class.</p>
+
+<p>Additionally, the paper presents a creative way of training big ensembles as our cumbersome model. A generalist
+model is trained on all training data classes and multiple specialist models are trained in parallel to focus on clustered
+subsets that are more confusable to the generalist model.</p>
+
+<p>The paper highlights the fact that different requirements are set for training and inferring neural network models and
+encourages first focusing on achieving the best performance of the model regardless of the computational cost and
+then transferring the knowledge to a more resource-contrained network. Knowledge distillation is general enough
+to be applied to different fields and has shown great results in compressing model architecture and transferring
+the knowledge of an ensemble of models into a single network, without compromising too much on the model’s
+performance.</p>
+
+
+    </div>
+  </article>
+
 
   
+    
+    <br>
+    <hr>
+    <br>
+    <ul class="list-disc pl-8"></ul>
+
+    <!-- Adds related posts to the end of an article -->
+    <h2 class="text-3xl font-semibold mb-4 mt-12">Enjoy Reading This Article?</h2>
+    <p class="mb-2">Here are some more articles you might like to read next:</p>
   
 
-  
-  <div class="header-bar">
-    <h1>Blog Posts</h1>
-    <h>Welcome to my blog, where I share my passion for exploring the remarkable realms of AI, applied mathematics and cutting-edge technologies. Through this blog, I provide valuable insights and showcase my academic journey in these transformative fields. Join me as I share project experiences and highlight the fascinating applications of AI.</h4>
-  </div>
-  
+  <li class="my-2">
+    <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="/Portfolio/blog/2023/audio-source-separation-using-non-negative-matrix-factorization-nmf/">Audio Source Separation Using Non-Negative Matrix Factorization (NMF)</a>
+  </li>
 
   
-  <div class="tag-list">
-    <ul class="p-0 m-0">
-      
-        <li>
-          <i class="fas fa-hashtag fa-sm"></i> <a href="/Portfolio/blog/tag/deep-learning">Deep-Learning</a>
-        </li>
-        
-          <p>&bull;</p>
-        
-      
-        <li>
-          <i class="fas fa-hashtag fa-sm"></i> <a href="/Portfolio/blog/tag/sound-processing">Sound-Processing</a>
-        </li>
-        
-          <p>&bull;</p>
-        
-      
-        <li>
-          <i class="fas fa-hashtag fa-sm"></i> <a href="/Portfolio/blog/tag/compter-vision">Compter-Vision</a>
-        </li>
-        
-          <p>&bull;</p>
-        
-      
-        <li>
-          <i class="fas fa-hashtag fa-sm"></i> <a href="/Portfolio/blog/tag/paper-summary">paper-summary</a>
-        </li>
-        
-      
-    </ul>
-  </div>
-  
 
-  <ul class="post-list">
-    
-
-    
-    
-    
-    
-
-    <li><h3>
-        
-          <a class="post-title" href="/Portfolio/blog/2023/KD/">Brief Summary | Distilling the Knowledge in a Neural Network</a>
-        
-      </h3>
-      <p>This is a brief summary of the <a href="https://arxiv.org/abs/1503.02531">Distilling the Knowledge in a Neural Network</a> paper.</p>
-      <p class="post-meta">
-        3 min read &nbsp; &middot; &nbsp;
-        May 7, 2023
-      </p>
-      <p class="post-tags">
-        <a href="/Portfolio/blog/2023">
-          <i class="fas fa-calendar fa-sm"></i> 2023 </a>
-
-          
-          &nbsp; &middot; &nbsp;
-            
-            <a href="/Portfolio/blog/tag/paper-summary">
-              <i class="fas fa-hashtag fa-sm"></i> paper-summary</a> &nbsp;
-              
-          
-
-          
-          &nbsp; &middot; &nbsp;
-            
-            <a href="/Portfolio/blog/category/sample-posts">
-              <i class="fas fa-tag fa-sm"></i> sample-posts</a> &nbsp;
-              
-          
-    </p></li>
-
-    
-
-    
-    
-    
-    
-
-    <li><h3>
-        
-          <a class="post-title" href="/Portfolio/blog/2023/sidebar-table-of-contents/">a post with table of contents on a sidebar</a>
-        
-      </h3>
-      <p>an example of a blog post with table of contents on a sidebar</p>
-      <p class="post-meta">
-        3 min read &nbsp; &middot; &nbsp;
-        April 25, 2023
-      </p>
-      <p class="post-tags">
-        <a href="/Portfolio/blog/2023">
-          <i class="fas fa-calendar fa-sm"></i> 2023 </a>
-
-          
-
-          
-          &nbsp; &middot; &nbsp;
-            
-            <a href="/Portfolio/blog/category/sample-posts">
-              <i class="fas fa-tag fa-sm"></i> sample-posts</a> &nbsp;
-              
-            <a href="/Portfolio/blog/category/toc">
-              <i class="fas fa-tag fa-sm"></i> toc</a> &nbsp;
-              
-            <a href="/Portfolio/blog/category/sidebar">
-              <i class="fas fa-tag fa-sm"></i> sidebar</a> &nbsp;
-              
-          
-    </p></li>
-
-    
-
-    
-    
-    
-    
-
-    <li><h3>
-        
-          
-            <a class="post-title" href="https://medium.com/@zahrahafida.benslimane/audio-source-separation-using-non-negative-matrix-factorization-nmf-a8b204490c7d?source=rss-85e540944197------2" target="_blank">Audio Source Separation Using Non-Negative Matrix Factorization (NMF)</a>
-            <svg width="2rem" height="2rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
-              <path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path>
-            </svg>
-          
-        
-      </h3>
-      <p></p>
-      <p class="post-meta">
-        10 min read &nbsp; &middot; &nbsp;
-        February 1, 2023
-        &nbsp; &middot; &nbsp; medium.com
-      </p>
-      <p class="post-tags">
-        <a href="/Portfolio/blog/2023">
-          <i class="fas fa-calendar fa-sm"></i> 2023 </a>
-
-          
-
-          
-    </p></li>
-
-    
-  </ul>
-
-  
+  <li class="my-2">
+    <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="/Portfolio/blog/2023/sidebar-table-of-contents/">a post with table of contents on a sidebar</a>
+  </li>
 
 </div>
 
@@ -282,7 +203,7 @@
     <!-- Footer -->    
     <footer class="fixed-bottom">
       <div class="container mt-0">
-        &copy; Copyright 2023 Zahra H. Benslimane. Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>. Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
+        © Copyright 2023 Zahra H. Benslimane. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="external nofollow noopener">GitHub Pages</a>. Photos from <a href="https://unsplash.com" target="_blank" rel="external nofollow noopener">Unsplash</a>.
 
       </div>
     </footer>
@@ -407,5 +328,6 @@
   }
 </script>
 
-  </body>
+  
+</body>
 </html>
