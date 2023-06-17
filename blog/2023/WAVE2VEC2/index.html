@@ -10,10 +10,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>paper-summary | Zahra Benslimane</title>
+    <title>Brief Summary | Wav2Vec 2.0 | Zahra Benslimane</title>
     <meta name="author" content="Zahra H. Benslimane">
-    <meta name="description" content="A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
-">
+    <meta name="description" content="This is a brief summary of the Wave2Vec 2.0">
     <meta name="keywords" content="jekyll, jekyll-theme, academic-website, portfolio-website">
 
 
@@ -39,7 +38,7 @@
     <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22&gt;&lt;text%20y=%22.9em%22%20font-size=%2290%22&gt;%F0%9F%91%A9%E2%80%8D%F0%9F%92%BB&lt;/text&gt;&lt;/svg&gt;">
     
     <link rel="stylesheet" href="/Portfolio/assets/css/main.css">
-    <link rel="canonical" href="https://zahrabenslimane.github.io/Portfolio/blog/tag/paper-summary/">
+    <link rel="canonical" href="https://zahrabenslimane.github.io/Portfolio/blog/2023/WAVE2VEC2/">
 
     <!-- Dark Mode -->
     
@@ -114,35 +113,60 @@
     <!-- Content -->
     <div class="container mt-5">
       
-        <div class="post">
+        <!-- _layouts/post.html -->
+
+<div class="post">
 
   <header class="post-header">
-    <h1 class="post-title"> <i class="fas fa-hashtag fa-sm"></i> paper-summary </h1>
-    <p class="post-description"> an archive of posts with this tag </p>
+    <h1 class="post-title">Brief Summary | Wav2Vec 2.0</h1>
+    <p class="post-meta">April 28, 2023</p>
+    <p class="post-tags">
+      <a href="/Portfolio/blog/2023"> <i class="fas fa-calendar fa-sm"></i> 2023 </a>
+        ·  
+        <a href="/Portfolio/blog/tag/paper-summary">
+          <i class="fas fa-hashtag fa-sm"></i> paper-summary</a>  
+          
+
+    </p>
   </header>
 
-  <article>
-    <div class="table-responsive">
-      <table class="table table-sm table-borderless">
-        
-        <tr>
-          <th scope="row">Apr 28, 2023</th>
-          <td>
-              <a class="post-link" href="/Portfolio/blog/2023/WAVE2VEC2/">Brief Summary | Wav2Vec 2.0</a>
-          </td>
-        </tr>
-      
-        <tr>
-          <th scope="row">Apr 28, 2023</th>
-          <td>
-              <a class="post-link" href="/Portfolio/blog/2023/KD/">Brief Summary | Distilling the Knowledge in a Neural Network</a>
-          </td>
-        </tr>
-      
-      </table>
+  <article class="post-content">
+    
+    <div id="markdown-content">
+      <p>Wav2vec 2.0 paper proposes an adapted architecture that leverages a transformer-based language model to better
+handle the temporal continuity of speech while minimizing our reliance on label data for training. The training
+approach consists of pre-training the model in a self-supervised manner to extract high-level contextualized speech
+representation from large amounts of unlabelled, raw, audio data. The models are then fine-tuned to perform downstream
+tasks, such as predicting words and phonemes, with a considerably smaller labeled dataset.</p>
+
+<p>The pre-training process involves extracting the latent feature representations 𝑧𝑖 of the raw audio data with a multilayer
+CNN. These representations are fed to two different modules. A quantization module that converts them into
+discrete vector representations 𝑞𝑖 by sampling from finite codebooks using the Gumbel-Softmax trick. A percentage
+of the feature representations 𝑧𝑖 are then masked and fed to a context network, with a transformer architecture similar
+to BERT, it learns to predict the correct contextualized representation 𝑐𝑖 or speech units for its masked inputs. The
+overall model then solves a contrastive task, by learning to distinguish the true quantized latent representation for
+each masked input among other quantized representations that act as distractors. The objective function minimizes
+the cosine similarity between the transformer’s projected context vectors 𝑐𝑖 with the quantized representations 𝑞𝑖
+(Contrastive loss) while making sure the model encourages diversity when sampling codewords from codebooks
+(Diversity loss).</p>
+
+<p>During the supervised fine-tuning, we freeze the quantization module and train new task-specific layers. For example,
+in a speech recognition-related task, a linear projection is added to minimize the Connectionist Temporal
+Classification (CTC) loss. By that, Wav2Vec 2.0 was able to achieve state-of-the-art performance on a range of
+speech recognition datasets.</p>
+
+<hr>
+
+<p>I found the wav2vec 2.0 paper challenging. The authors draw upon a diverse set of research
+areas, including contrastive predictive coding, product quantization, and masked predictions with transformers to
+create a comprehensive framework for speech recognition. Additionally, the paper references several other works,
+making it a dense read that requires a strong understanding of the underlying concepts. Nevertheless after following
+the continuous train of thought from the <a href="https://arxiv.org/abs/1807.03748" rel="external nofollow noopener" target="_blank">Contrastive Prediction Coding</a> paper, to <a href="https://arxiv.org/abs/1904.05862" rel="external nofollow noopener" target="_blank">Wav2vec</a>  and <a href="https://arxiv.org/abs/1910.05453" rel="external nofollow noopener" target="_blank">
+VQ-wav2vec</a> and getting familiar with <a href="https://arxiv.org/abs/1810.04805" rel="external nofollow noopener" target="_blank"> BERT</a>, the Wav2Vec 2.0 paper approach became more apparent.</p>
+
+
     </div>
   </article>
-
 </div>
 
       
