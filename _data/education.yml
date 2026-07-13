@@ -1,0 +1,49 @@
+- degree: Ph.D. Student
+  institution: Doctoral research
+  location: France
+  period: Current
+  focus:
+    - Speech and audio AI
+    - Efficient neural networks
+    - Robust model deployment
+  summary: >
+    Current doctoral work centered on machine learning systems for speech and audio,
+    with an emphasis on reproducible experiments, efficient models, and research code
+    that can move from notebooks to usable pipelines.
+  activities:
+    - Building and evaluating deep learning models for audio and speech processing tasks.
+    - Studying model compression, robustness, and deployment constraints for real-world systems.
+    - Maintaining research tooling for experiments, metrics, and inference workflows.
+
+- degree: M.Sc. in Smart Systems Engineering
+  institution: Sorbonne University
+  location: Paris, France
+  period: 2023
+  focus:
+    - Machine learning and deep learning
+    - Computer vision
+    - Audio signal processing
+  summary: >
+    Graduate training across AI, signal processing, computer vision, embedded systems,
+    and applied mathematics, with projects spanning neural network compression,
+    sound source localization, image analysis, and audio source separation.
+  courses:
+    - TensorFlow, PyTorch, Keras, pandas, scikit-learn
+    - CNNs, RNNs, autoencoders, GANs, pruning, folding, quantization
+    - Beamforming, TDOA estimation, NMF, time-frequency analysis
+
+- degree: B.Sc. in Electronics, Electrical Engineering, and Automatics
+  institution: Sorbonne University
+  location: Paris, France
+  period: 2021
+  focus:
+    - Embedded systems
+    - Digital and analog electronics
+    - Robotics and control theory
+  summary: >
+    Undergraduate foundation in electronic circuits, microprocessors, FPGA design,
+    signal processing, control theory, robotics, and hardware-oriented prototyping.
+  courses:
+    - VHDL, finite-state machines, memories, processor architecture
+    - Analog/digital circuits, op-amps, semiconductors, logic design
+    - PID control, Simulink, robot trajectory planning, PCB design

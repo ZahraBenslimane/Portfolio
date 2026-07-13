@@ -11,19 +11,26 @@
 - title: Education
   type: time_table
   contents:
+    - title: Ph.D. Student
+      institution: Doctoral research, France
+      year: Current
+      description:
+        - Speech and audio AI, efficient neural networks, and reproducible machine learning systems.
+        - Building experimental and inference pipelines for research workflows.
+
     - title: Master's degree | Smart Systems Engineering
       institution: Sorbonne University, Paris, France
       year: 2023
       description:
         - title: Machine/Deep Learning
           contents:
-            - Frameworks and libraries ; Tensorflow, pytorch, keras, pandas and scikit learn.
+            - Frameworks and libraries ; TensorFlow, PyTorch, keras, pandas and scikit-learn.
             - Familiar with MLPs, CNNs, RNNs, Auto-Encoders ,GANs.
             - Experimented with Neural Networks compression methods ; Folding, pruning and Quantization.
         - title: Image Processing & Computer Vision
           contents:
-            - Mastered basic concepts such as image stiching, blob detection, regions of interest ..
-            - Motion detection and estimation techniques, block matching, Lucas-Kanade and Horn- Schunck approches.
+            - Mastered basic concepts such as image stitching, blob detection, regions of interest ..
+            - Motion detection and estimation techniques, block matching, Lucas-Kanade and Horn- Schunck approaches.
             - Object tracking with Kalman and particle filters.
             - Nvidia Jetson Nano for real time image processing.
             - Python libraries ; OpenCV, PIL/Pillow, scikitimage
@@ -33,13 +40,13 @@
             - Beamforming, Time Delay Of Arrival (TDOA) estimation for Sound source localization.
             - Implemented an audio source separation using NMF(Non-Negative Matrix Multiplication) algorithm.
         
-    - title: Undergraduate degre | Electronics, Electrical Engineering and Automatics
+    - title: Undergraduate degree | Electronics, Electrical Engineering and Automatics
       institution: Sorbonne University, Paris, France
       year: 2021
       description:
         - title: Digital systems & microprocessors
           contents:
-            - FPGAs, VHDL, Finite State Machine, memories and processors architechure
+            - FPGAs, VHDL, Finite State Machine, memories and processors architecture
             - Interrupts,  timers, memory management, peripherals and communication protocols, input/output (I/O) operations, and low-level programming.  
         - title: Analog & digital electronics 
           contents:
@@ -49,27 +56,35 @@
           contents:
             - Robot trajectory planning
             - Mathematical modeling of physical systems & PID tuning with SIMULINK.
-        - Electromagnitism, wave propagation & antenna radiation    
+        - Electromagnetism, wave propagation & antenna radiation    
         - Signal processing
         - title: Skills.
           contents:
-            - Oscilloscopes and multimeters, AC/DC power souces, Soldering and Wiring.
+            - Oscilloscopes and multimeters, AC/DC power sources, Soldering and Wiring.
             - Xilinx Vivado used for hardware description in VHDL to configure an Artix-7 FPGA (Nexys 4DDR board) + Modelsim for testbenches.
             - Cadence Orcad(PSpice et Capture) + LTspice for digital & analog design and simulation.
             - Keil μVision4 IDE, used to run and debug embedded software to program an LPC2378 (32-bit RISC Microcontroller on a MCB2300 evaluation board).
-            - Circut design on PCB (Printed Circuit Board) using Eagle (CAD software).
+            - Circuit design on PCB (Printed Circuit Board) using Eagle (CAD software).
             - Experimented with 4NEC2 for antenna modelling.
 
 - title: Professional Experience
   type: time_table
   contents:
+    - title: Ph.D. Researcher
+      institution: Doctoral research, France
+      year: Current
+      description:
+        - Researching machine learning methods for speech and audio systems.
+        - Mayntaining reproducible training, evaluation, and inference workflows.
+        - Studying model quality, computational cost, and deployment constraints.
+
     - title: AI engineer apprentice
       institution: Renault Group, Technocentre Renault, Guyancourt, France
       year: 2021 - 2023
       description:
         - Introducing AI solutions for the manufacturing industry
-        - Framing complex industy problems, definng the scope of the projects, success criteria to ensure factory's satisfaction
-        - Helping the team create an MLOps platfom to deploy the solutions at large scale.
+        - Framing complex industry problems, defining the scope of the projects, success criteria to ensure factory's satisfaction
+        - Helping the team create an MLOps platform to deploy the solutions at large scale.
         - Using Google Cloud Platform to create machine learning models for visual inspection systems. [ Vertex AI / Visual Inspection AI ]
           
 
@@ -81,16 +96,16 @@
       description: Implemented the Neural Machine Translation By Jointly Learning To Align And Translate paper. Used a sequence to sequence neural network model with the Bahdanau attention mechanism introduced in the paper. Got comfortable with natural language processing tasks such as tokenization, word embedding and computing bleu scores.
 
     - title: <a href="https://github.com/ZahraBenslimane/underwater-image-analysis">Under Water Image Analysis</a>
-      year: Nov 2022 - Fev 2023
+      year: Nov 2022 - Feb 2023
       description: Used image processing tools and neural networks for deep sea species detection, segmentation and tracking. A stereo camera system was used for estimating the size of the species.
 
     - title: Augmented Reality 
       year: Dec 2021 - Jan 2022
-      description: Succeeded to insert 3D objetcs within a pre-recorded video by using the Direct Linear Transform (DLT) algorithm and Zhang's method to estimate the projection matrices and multiple image processing methods for marker tracking.
+      description: Succeeded to insert 3D objects within a pre-recorded video by using the Direct Linear Transform (DLT) algorithm and Zhang's method to estimate the projection matrices and multiple image processing methods for marker tracking.
 
     - title: <a href="https://github.com/ZahraBenslimane/Wire-guided-Robot">Wire Guided Delivery Robot</a>
-      year: Mai 2021
-      description: Designed, from scratch, different sensor circuits such as ultrasonic obstacle detection, inductive guidance system for driving and others modules to interact with environnement based on DTMF code and morse code.
+      year: May 2021
+      description: Designed, from scratch, different sensor circuits such as ultrasonic obstacle detection, inductive guidance system for driving and others modules to interact with environment based on DTMF code and morse code.
 
 
 # - title: Academic Interests

@@ -1,0 +1,54 @@
+- role: Ph.D. Researcher
+  organization: Doctoral research
+  location: France
+  period: Current
+  type: Research
+  summary: >
+    Researching machine learning methods for speech and audio systems, with a strong
+    interest in efficient training, reproducible evaluation, and deployable inference.
+  highlights:
+    - Designing experiments and evaluation protocols for audio-oriented deep learning models.
+    - Working on reproducible training and inference pipelines for research iteration.
+    - Connecting model quality, computational cost, and deployment constraints.
+  stack:
+    - Python
+    - PyTorch
+    - Speech/audio processing
+    - Experiment tracking
+
+- role: AI Engineer Apprentice
+  organization: Renault Group
+  location: Technocentre Renault, Guyancourt, France
+  period: 2021 - 2023
+  type: Industry
+  summary: >
+    Worked on AI-based quality-control systems for manufacturing, translating plant
+    needs into scalable computer-vision and MLOps workflows.
+  highlights:
+    - Helped frame industrial AI problems, project scope, and success criteria with factory stakeholders.
+    - Contributed to MLOps practices for deploying AI solutions at larger scale.
+    - Used Google Cloud Platform, Vertex AI, and Visual Inspection AI for visual inspection systems.
+  stack:
+    - Computer vision
+    - Google Cloud Platform
+    - Vertex AI
+    - MLOps
+
+- role: Applied AI Projects
+  organization: Sorbonne University and independent projects
+  location: Paris, France
+  period: 2021 - 2023
+  type: Projects
+  summary: >
+    Built applied research and engineering projects in neural machine translation,
+    underwater image analysis, augmented reality, robotics, beamforming, and audio
+    source separation.
+  highlights:
+    - Implemented neural machine translation with attention and BLEU-score evaluation.
+    - Used image processing and stereo vision for underwater species detection, segmentation, and sizing.
+    - Designed a wire-guided delivery robot using sensors, embedded software, and custom circuits.
+  stack:
+    - Deep learning
+    - OpenCV
+    - Embedded systems
+    - Signal processing

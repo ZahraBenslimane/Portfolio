@@ -2,9 +2,9 @@
 layout: page
 title: projects
 permalink: /projects/
-description: A growing collection of your cool projects.
-nav: False
-nav_order: 2
+description: Research prototypes, engineering builds, and applied AI projects.
+nav: true
+nav_order: 6
 display_categories: [work, fun]
 horizontal: false
 ---

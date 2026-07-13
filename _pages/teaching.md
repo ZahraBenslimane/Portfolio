@@ -2,11 +2,34 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: Materials for courses you taught. Replace this text with your description.
-nav: False
+description: Teaching, mentoring, tutorials, and course materials.
+nav: true
 nav_order: 5
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
+<div class="academic-page">
+  <p class="section-kicker">__ Teaching ___________________</p>
 
-Organize your courses by years, topics, or universities, however you like!
+  <div class="timeline-stack">
+    {% for item in site.data.teaching %}
+    <article class="academic-card">
+      <div class="academic-card__meta">
+        <span class="meta-badge">{{ item.period }}</span>
+        <span>{{ item.role }}</span>
+      </div>
+      <div class="academic-card__body">
+        <h2>{{ item.title }}</h2>
+        <p class="academic-card__institution">{{ item.institution }}</p>
+        <p>{{ item.description }}</p>
+        {% if item.topics %}
+        <ul class="chip-list">
+          {% for topic in item.topics %}
+          <li>{{ topic }}</li>
+          {% endfor %}
+        </ul>
+        {% endif %}
+      </div>
+    </article>
+    {% endfor %}
+  </div>
+</div>

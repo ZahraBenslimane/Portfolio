@@ -4,29 +4,68 @@ title: about
 permalink: /
 subtitle: #<a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 
-profile:
-  align: right
-  image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
-  address: >
-    <p>Paris, IDF </p>
+profile: false
 
 news: False  # includes a list of news items
-latest_posts: False  # includes a list of the newest posts
+latest_posts: True  # includes a list of the newest posts
 selected_papers: False # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Hey there ! I am Zahra, a 23-year-old [smart systems engineering](https://sciences.sorbonne-universite.fr/formation-sciences/offre-de-formation/masters/master-automatique-robotique/parcours-ingenierie-des) major at [Sorbonne University](https://www.sorbonne-universite.fr/in) paris. 
+<section class="home-hero">
+  <div class="home-hero__copy">
+    <p class="home-hero__eyebrow">Ph.D. student · AI for speech and audio · Paris, France</p>
+    <h2>Building machine learning systems that listen carefully and run efficiently.</h2>
+    <p>
+      I am Zahra Hafida Benslimane, a Ph.D. student working at the intersection of
+      audio signal processing, deep learning, and deployable AI. My background spans
+      smart systems engineering, computer vision, embedded systems, and industrial AI.
+    </p>
+    <div class="home-hero__actions">
+      <a class="btn-portfolio" href="{{ '/publications/' | relative_url }}"><i class="fas fa-book-open"></i> Publications</a>
+      <a class="btn-portfolio btn-portfolio--ghost" href="{{ '/blog/' | relative_url }}"><i class="fas fa-pen-nib"></i> Blog</a>
+      <a class="btn-portfolio btn-portfolio--ghost" href="{{ '/experience/' | relative_url }}"><i class="fas fa-briefcase"></i> Experience</a>
+    </div>
+  </div>
+  <figure class="home-hero__media">
+    <img src="{{ '/assets/img/prof_pic.jpg' | relative_url }}" alt="Portrait of Zahra Benslimane">
+    <figcaption>AI · signal processing · research engineering</figcaption>
+  </figure>
+</section>
 
-I got my undergraduate degree from the same university in [Electrical Engineering](https://sciences.sorbonne-universite.fr/formation-sciences/offre-de-formation/licences/licences-generales-l2-l3/licence-delectronique) in 2021 where I have acquired skills in electronics,embeded systems and basics of robotics and control theory. My current major focuses on audio signal processing, computer vision and Deep Learning. 
+<section class="signal-grid" aria-label="Research snapshot">
+  <div class="signal-item">
+    <span>01</span>
+    <strong>Research</strong>
+    <p>Speech and audio machine learning, efficient neural networks, and robust inference pipelines.</p>
+  </div>
+  <div class="signal-item">
+    <span>02</span>
+    <strong>Engineering</strong>
+    <p>Python, PyTorch, computer vision, embedded systems, MLOps, and reproducible experiments.</p>
+  </div>
+  <div class="signal-item">
+    <span>03</span>
+    <strong>Writing</strong>
+    <p>Paper summaries, experiment notes, and practical posts on AI systems and signal processing.</p>
+  </div>
+</section>
 
-I’m currently working, as a part time apprentice, at [Renault group](https://www.renaultgroup.com/) on AI based quality control scalable systems to optimize the manufacturing processes in the plants.
-
-<!---
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
-
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
--->
+<section class="research-grid">
+  <div>
+    <p class="section-kicker">__ Focus __________________</p>
+    <h3>What this site should make easy to find</h3>
+  </div>
+  <div class="research-tile">
+    <h4>Publications and preprints</h4>
+    <p>A clean academic publication page is ready for BibTeX entries, PDFs, code, and project links.</p>
+  </div>
+  <div class="research-tile">
+    <h4>Education and experience</h4>
+    <p>The new pages separate doctoral work, degrees, research projects, and industry experience.</p>
+  </div>
+  <div class="research-tile">
+    <h4>Blog and teaching notes</h4>
+    <p>The blog remains the place for paper summaries and longer notes; teaching materials have their own page.</p>
+  </div>
+</section>
