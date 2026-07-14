@@ -420,24 +420,37 @@ footer.sticky-bottom {
 .post-chip {
   align-items: center;
   border: 1px solid var(--portfolio-border);
-  border-radius: 999px;
+  border-radius: 7px;
   display: inline-flex;
   font-weight: 700;
   line-height: 1;
   text-decoration: none !important;
+  transition: background-color 160ms ease, border-color 160ms ease, box-shadow 160ms ease, color 160ms ease, transform 160ms ease;
 }
 
 .tag-chip {
-  background: var(--portfolio-surface);
-  color: var(--portfolio-accent) !important;
+  background: var(--portfolio-accent);
+  border-color: var(--portfolio-accent-strong);
+  box-shadow: 0 8px 18px rgba(15, 118, 110, 0.16);
+  color: #fff !important;
   font-size: 0.88rem;
-  padding: 0.55rem 0.78rem;
+  min-height: 2.35rem;
+  padding: 0.58rem 0.82rem;
 }
 
 .tag-chip:hover {
-  background: var(--portfolio-accent);
-  border-color: var(--portfolio-accent);
+  background: var(--portfolio-accent-strong);
+  border-color: var(--portfolio-accent-strong);
+  box-shadow: 0 10px 22px rgba(15, 118, 110, 0.22);
   color: #fff !important;
+  transform: translateY(-1px);
+}
+
+.tag-chip__hash,
+.post-chip__hash {
+  font-weight: 800;
+  margin-right: 0.16rem;
+  opacity: 0.72;
 }
 
 .post-chip-row {
@@ -448,20 +461,23 @@ footer.sticky-bottom {
 }
 
 .post-chip {
-  background: var(--portfolio-surface-2);
-  color: var(--global-text-color-light) !important;
+  background: var(--portfolio-surface);
+  color: var(--portfolio-accent-strong) !important;
   font-size: 0.78rem;
   gap: 0.3rem;
-  padding: 0.32rem 0.55rem;
+  padding: 0.36rem 0.56rem;
 }
 
 .post-chip:hover {
+  background: var(--portfolio-surface-2);
   border-color: var(--portfolio-accent);
   color: var(--portfolio-accent-strong) !important;
+  transform: translateY(-1px);
 }
 
 .post-chip--year,
 .post-chip--category {
+  background: transparent;
   color: var(--portfolio-warm) !important;
 }
 
