@@ -1,0 +1,49 @@
+- title: Neural Machine Translation
+  period: Dec 2022
+  link: https://github.com/ZahraBenslimane/Neural-Machine-Translation-by-Jointly-Learning-to-Align-and-Translate
+  summary: >
+    Implemented the "Neural Machine Translation by Jointly Learning to Align and
+    Translate" paper with a sequence-to-sequence neural network and Bahdanau
+    attention. Practiced tokenization, word embeddings, and BLEU-score evaluation.
+  stack:
+    - NLP
+    - Sequence-to-sequence models
+    - Attention
+    - Deep learning
+
+- title: Underwater Image Analysis
+  period: Nov 2022 - Feb 2023
+  link: https://github.com/ZahraBenslimane/underwater-image-analysis
+  summary: >
+    Used image processing and neural networks for deep-sea species detection,
+    segmentation, and tracking. A stereo camera setup supported species size
+    estimation.
+  stack:
+    - Computer vision
+    - Segmentation
+    - Object tracking
+    - Stereo vision
+
+- title: Augmented Reality
+  period: Dec 2021 - Jan 2022
+  summary: >
+    Inserted 3D objects into a pre-recorded video using Direct Linear Transform,
+    Zhang's calibration method, projection matrix estimation, and marker tracking.
+  stack:
+    - Camera calibration
+    - Image processing
+    - Marker tracking
+    - 3D projection
+
+- title: Wire-Guided Delivery Robot
+  period: May 2021
+  link: https://github.com/ZahraBenslimane/Wire-guided-Robot
+  summary: >
+    Designed sensor circuits from scratch, including ultrasonic obstacle detection
+    and inductive guidance. Built modules for environmental interaction using DTMF
+    code and Morse code.
+  stack:
+    - Embedded systems
+    - Sensor circuits
+    - Robotics
+    - Electronics

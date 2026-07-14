@@ -14,6 +14,12 @@
     - Building and evaluating deep learning models for audio and speech processing tasks.
     - Studying model compression, robustness, and deployment constraints for real-world systems.
     - Maintaining research tooling for experiments, metrics, and inference workflows.
+  details:
+    - title: Research toolkit
+      items:
+        - Reproducible training, evaluation, and inference workflows.
+        - Audio-oriented deep learning experiments and metrics.
+        - Model quality, computational cost, and deployment-aware analysis.
 
 - degree: M.Sc. in Smart Systems Engineering
   institution: Sorbonne University
@@ -31,6 +37,23 @@
     - TensorFlow, PyTorch, Keras, pandas, scikit-learn
     - CNNs, RNNs, autoencoders, GANs, pruning, folding, quantization
     - Beamforming, TDOA estimation, NMF, time-frequency analysis
+  details:
+    - title: Machine learning and deep learning
+      items:
+        - TensorFlow, PyTorch, Keras, pandas, and scikit-learn.
+        - MLPs, CNNs, RNNs, autoencoders, and GANs.
+        - Neural network compression methods including folding, pruning, and quantization.
+    - title: Image processing and computer vision
+      items:
+        - Image stitching, blob detection, regions of interest, and feature-based image analysis.
+        - Motion detection and estimation with block matching, Lucas-Kanade, and Horn-Schunck approaches.
+        - Object tracking with Kalman and particle filters.
+        - Real-time image processing on Nvidia Jetson Nano with OpenCV, Pillow, and scikit-image.
+    - title: Audio signal processing
+      items:
+        - Time-frequency analysis and audio compression.
+        - Beamforming and Time Delay of Arrival estimation for sound source localization.
+        - Audio source separation with Non-negative Matrix Factorization.
 
 - degree: B.Sc. in Electronics, Electrical Engineering, and Automatics
   institution: Sorbonne University
@@ -47,3 +70,19 @@
     - VHDL, finite-state machines, memories, processor architecture
     - Analog/digital circuits, op-amps, semiconductors, logic design
     - PID control, Simulink, robot trajectory planning, PCB design
+  details:
+    - title: Digital systems and microprocessors
+      items:
+        - FPGA design, VHDL, finite-state machines, memories, and processor architecture.
+        - Interrupts, timers, memory management, peripherals, communication protocols, and low-level programming.
+        - Xilinx Vivado, ModelSim, and Keil uVision for embedded and hardware design workflows.
+    - title: Electronics and signal systems
+      items:
+        - Analog circuits, digital logic, op-amps, semiconductors, Boolean algebra, and integrated circuits.
+        - Signal processing, electromagnetism, wave propagation, and antenna radiation.
+        - Circuit design and simulation with PSpice, LTspice, Eagle, and 4NEC2.
+    - title: Robotics and control
+      items:
+        - Robot trajectory planning and mathematical modeling of physical systems.
+        - PID tuning with Simulink.
+        - Lab work with oscilloscopes, multimeters, AC/DC power sources, soldering, and wiring.
