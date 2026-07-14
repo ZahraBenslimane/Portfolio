@@ -30,39 +30,43 @@ nav_order: 3
         </ul>
         {% endif %}
 
-        {% if item.courses %}
-        <details class="academic-details">
-          <summary>Core topics and tools</summary>
-          <ul>
-            {% for course in item.courses %}
-            <li>{{ course }}</li>
-            {% endfor %}
-          </ul>
-        </details>
-        {% endif %}
+        {% if item.courses or item.details or item.activities %}
+        <div class="academic-module-list" aria-label="{{ item.degree }} details">
+          {% if item.courses %}
+          <section class="academic-module">
+            <h3>Core topics and tools</h3>
+            <ul>
+              {% for course in item.courses %}
+              <li>{{ course }}</li>
+              {% endfor %}
+            </ul>
+          </section>
+          {% endif %}
 
-        {% if item.details %}
-        {% for detail in item.details %}
-        <details class="academic-details">
-          <summary>{{ detail.title }}</summary>
-          <ul>
-            {% for line in detail.items %}
-            <li>{{ line }}</li>
-            {% endfor %}
-          </ul>
-        </details>
-        {% endfor %}
-        {% endif %}
+          {% if item.details %}
+          {% for detail in item.details %}
+          <section class="academic-module">
+            <h3>{{ detail.title }}</h3>
+            <ul>
+              {% for line in detail.items %}
+              <li>{{ line }}</li>
+              {% endfor %}
+            </ul>
+          </section>
+          {% endfor %}
+          {% endif %}
 
-        {% if item.activities %}
-        <details class="academic-details">
-          <summary>Current activities</summary>
-          <ul>
-            {% for activity in item.activities %}
-            <li>{{ activity }}</li>
-            {% endfor %}
-          </ul>
-        </details>
+          {% if item.activities %}
+          <section class="academic-module">
+            <h3>Current activities</h3>
+            <ul>
+              {% for activity in item.activities %}
+              <li>{{ activity }}</li>
+              {% endfor %}
+            </ul>
+          </section>
+          {% endif %}
+        </div>
         {% endif %}
       </div>
     </article>
