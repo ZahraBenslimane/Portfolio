@@ -2,7 +2,7 @@
 layout: page
 permalink: /experience/
 title: experience
-description: Research, industry, and applied engineering experience.
+description: Research, industry, teaching, mentoring, and applied engineering experience.
 nav: true
 nav_order: 4
 ---
@@ -44,4 +44,31 @@ nav_order: 4
     </article>
     {% endfor %}
   </div>
+
+  <section class="experience-teaching">
+    <p class="section-kicker">__ Teaching and Mentoring ______</p>
+
+    <div class="timeline-stack">
+      {% for item in site.data.teaching %}
+      <article class="academic-card academic-card--split">
+        <div class="academic-card__meta">
+          <span class="meta-badge">{{ item.period }}</span>
+          <span>{{ item.role }}</span>
+        </div>
+        <div class="academic-card__body">
+          <h2>{{ item.title }}</h2>
+          <p class="academic-card__institution">{{ item.institution }}</p>
+          <p>{{ item.description }}</p>
+          {% if item.topics %}
+          <ul class="chip-list">
+            {% for topic in item.topics %}
+            <li>{{ topic }}</li>
+            {% endfor %}
+          </ul>
+          {% endif %}
+        </div>
+      </article>
+      {% endfor %}
+    </div>
+  </section>
 </div>

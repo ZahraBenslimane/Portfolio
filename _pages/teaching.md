@@ -3,8 +3,9 @@ layout: page
 permalink: /teaching/
 title: teaching
 description: Teaching, mentoring, tutorials, and course materials.
-nav: true
+nav: false
 nav_order: 5
+published: false
 ---
 
 <div class="academic-page">

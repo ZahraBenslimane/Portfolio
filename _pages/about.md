@@ -62,10 +62,10 @@ social: true  # includes social icons at the bottom of the page
   </div>
   <div class="research-tile">
     <h4>Education and experience</h4>
-    <p>The new pages separate doctoral work, degrees, research projects, and industry experience.</p>
+    <p>The education page covers doctoral training, degrees, and academic projects; experience brings together research, industry, teaching, and mentoring.</p>
   </div>
   <div class="research-tile">
     <h4>Blog and teaching notes</h4>
-    <p>The blog remains the place for paper summaries and longer notes; teaching materials have their own page.</p>
+    <p>The blog remains the place for paper summaries and longer notes, while teaching materials now sit with experience.</p>
   </div>
 </section>
