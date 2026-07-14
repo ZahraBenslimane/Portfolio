@@ -14,7 +14,13 @@
                 <tr>
                   <th scope="row">{{ item.date | date: "%b %-d, %Y" }}</th>
                   <td>
-                    <a class="news-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
+                    {% if item.redirect contains '://' %}
+                      <a class="news-title" href="{{ item.redirect }}" target="_blank" rel="external nofollow noopener">{{ item.title }}</a>
+                    {% elsif item.redirect %}
+                      <a class="news-title" href="{{ item.redirect | relative_url }}">{{ item.title }}</a>
+                    {% else %}
+                      <a class="news-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
+                    {% endif %}
                   </td>
                 </tr>
               {%- endfor %}
