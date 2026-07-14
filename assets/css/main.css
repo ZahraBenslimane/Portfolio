@@ -458,13 +458,6 @@ footer.sticky-bottom {
   transform: translateY(-1px);
 }
 
-.tag-chip__hash,
-.post-chip__hash {
-  font-weight: 800;
-  margin-right: 0.16rem;
-  opacity: 0.72;
-}
-
 .post-chip-row {
   align-items: center;
   display: flex;
