@@ -31,41 +31,74 @@ nav_order: 3
         {% endif %}
 
         {% if item.courses or item.details or item.activities %}
-        <div class="academic-module-list" aria-label="{{ item.degree }} details">
+        {% assign degree_index = forloop.index0 %}
+        <div class="academic-topic-tabs" aria-label="{{ item.degree }} details">
           {% if item.courses %}
-          <section class="academic-module">
-            <h3>Core topics and tools</h3>
-            <ul>
-              {% for course in item.courses %}
-              <li>{{ course }}</li>
-              {% endfor %}
-            </ul>
-          </section>
+          <input class="academic-topic-input" type="radio" name="education-topic-{{ degree_index }}" id="education-topic-{{ degree_index }}-core" checked>
           {% endif %}
 
           {% if item.details %}
           {% for detail in item.details %}
-          <section class="academic-module">
-            <h3>{{ detail.title }}</h3>
-            <ul>
-              {% for line in detail.items %}
-              <li>{{ line }}</li>
-              {% endfor %}
-            </ul>
-          </section>
+          <input class="academic-topic-input" type="radio" name="education-topic-{{ degree_index }}" id="education-topic-{{ degree_index }}-detail-{{ forloop.index0 }}"{% unless item.courses %}{% if forloop.first %} checked{% endif %}{% endunless %}>
           {% endfor %}
           {% endif %}
 
           {% if item.activities %}
-          <section class="academic-module">
-            <h3>Current activities</h3>
-            <ul>
-              {% for activity in item.activities %}
-              <li>{{ activity }}</li>
-              {% endfor %}
-            </ul>
-          </section>
+          <input class="academic-topic-input" type="radio" name="education-topic-{{ degree_index }}" id="education-topic-{{ degree_index }}-activities"{% unless item.courses or item.details %} checked{% endunless %}>
           {% endif %}
+
+          <div class="academic-topic-buttons">
+            {% if item.courses %}
+            <label class="academic-topic-button" for="education-topic-{{ degree_index }}-core">Core topics and tools</label>
+            {% endif %}
+
+            {% if item.details %}
+            {% for detail in item.details %}
+            <label class="academic-topic-button" for="education-topic-{{ degree_index }}-detail-{{ forloop.index0 }}">{{ detail.title }}</label>
+            {% endfor %}
+            {% endif %}
+
+            {% if item.activities %}
+            <label class="academic-topic-button" for="education-topic-{{ degree_index }}-activities">Current activities</label>
+            {% endif %}
+          </div>
+
+          <div class="academic-topic-panels">
+            {% if item.courses %}
+            <section class="academic-topic-panel">
+              <h3>Core topics and tools</h3>
+              <ul>
+                {% for course in item.courses %}
+                <li>{{ course }}</li>
+                {% endfor %}
+              </ul>
+            </section>
+            {% endif %}
+
+            {% if item.details %}
+            {% for detail in item.details %}
+            <section class="academic-topic-panel">
+              <h3>{{ detail.title }}</h3>
+              <ul>
+                {% for line in detail.items %}
+                <li>{{ line }}</li>
+                {% endfor %}
+              </ul>
+            </section>
+            {% endfor %}
+            {% endif %}
+
+            {% if item.activities %}
+            <section class="academic-topic-panel">
+              <h3>Current activities</h3>
+              <ul>
+                {% for activity in item.activities %}
+                <li>{{ activity }}</li>
+                {% endfor %}
+              </ul>
+            </section>
+            {% endif %}
+          </div>
         </div>
         {% endif %}
       </div>
