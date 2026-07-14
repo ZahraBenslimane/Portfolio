@@ -58,10 +58,6 @@
   summary: >
     Undergraduate foundation in electronic circuits, microprocessors, FPGA design,
     signal processing, control theory, robotics, and hardware-oriented prototyping.
-  courses:
-    - VHDL, finite-state machines, memories, processor architecture
-    - Analog/digital circuits, op-amps, semiconductors, logic design
-    - PID control, Simulink, robot trajectory planning, PCB design
   details:
     - title: Digital systems and microprocessors
       items:
