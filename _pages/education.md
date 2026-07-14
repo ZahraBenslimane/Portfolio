@@ -4,7 +4,7 @@ permalink: /education/
 title: education
 description: Degrees, doctoral training, coursework, and academic projects.
 nav: true
-nav_order: 3
+nav_order: 1
 ---
 
 <div class="academic-page">

@@ -4,7 +4,7 @@ permalink: /experience/
 title: experience
 description: Research, industry, teaching, mentoring, and applied engineering experience.
 nav: true
-nav_order: 4
+nav_order: 2
 ---
 
 <div class="academic-page">
