@@ -7,11 +7,11 @@
  ******************************************************************************/
 :root {
   --global-bg-color: #ffffff;
-  --global-code-bg-color: rgba(181, 9, 172, 0.05);
+  --global-code-bg-color: rgba(15, 118, 110, 0.05);
   --global-text-color: #000000;
   --global-text-color-light: #828282;
-  --global-theme-color: #B509AC;
-  --global-hover-color: #B509AC;
+  --global-theme-color: #0F766E;
+  --global-hover-color: #0F766E;
   --global-hover-text-color: #ffffff;
   --global-footer-bg-color: #1C1C1D;
   --global-footer-text-color: #e8e8e8;
@@ -40,8 +40,8 @@ html[data-theme=dark] {
   --global-code-bg-color: #2c3237;
   --global-text-color: #e8e8e8;
   --global-text-color-light: #e8e8e8;
-  --global-theme-color: #2698BA;
-  --global-hover-color: #2698BA;
+  --global-theme-color: #3FB8B1;
+  --global-hover-color: #3FB8B1;
   --global-hover-text-color: #ffffff;
   --global-footer-bg-color: #e8e8e8;
   --global-footer-text-color: #1C1C1D;
@@ -86,7 +86,7 @@ body.sticky-bottom-footer {
 }
 
 .container {
-  max-width: 800px;
+  max-width: 1000px;
 }
 
 .profile img {
@@ -848,6 +848,378 @@ nav[data-toggle=toc] .nav-link.active:hover {
     visibility: hidden;
     height: 0;
     top: 0;
+  }
+}
+/*******************************************************************************
+ * Portfolio refresh
+ ******************************************************************************/
+:root {
+  --portfolio-accent: #0f766e;
+  --portfolio-accent-strong: #0b5f59;
+  --portfolio-warm: #b95b44;
+  --portfolio-surface: #f5f8f7;
+  --portfolio-surface-2: #edf4f2;
+  --portfolio-border: rgba(15, 118, 110, 0.22);
+  --portfolio-shadow: 0 16px 40px rgba(15, 23, 42, 0.08);
+}
+
+html[data-theme=dark] {
+  --portfolio-accent: #55c7bf;
+  --portfolio-accent-strong: #7edbd5;
+  --portfolio-warm: #f0a088;
+  --portfolio-surface: #1f2528;
+  --portfolio-surface-2: #222d30;
+  --portfolio-border: rgba(85, 199, 191, 0.28);
+  --portfolio-shadow: none;
+}
+
+.navbar .navbar-nav.flex-nowrap {
+  flex-wrap: wrap !important;
+}
+
+.navbar.navbar-light .navbar-nav .nav-item .nav-link {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.post-header .post-title {
+  color: var(--global-theme-color);
+}
+
+.home-hero {
+  align-items: center;
+  border-bottom: 1px solid var(--global-divider-color);
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: minmax(0, 1fr) minmax(220px, 280px);
+  padding: 1.5rem 0 2.5rem;
+}
+
+.home-hero__eyebrow,
+.section-kicker {
+  color: var(--portfolio-warm);
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 0;
+  margin-bottom: 0.75rem;
+  text-transform: uppercase;
+}
+
+.home-hero h2 {
+  color: var(--global-text-color);
+  font-size: 2.45rem;
+  line-height: 1.12;
+  margin-bottom: 1rem;
+}
+
+.home-hero p {
+  font-size: 1.02rem;
+  line-height: 1.72;
+}
+
+.home-hero__actions,
+.publication-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+  margin-top: 1.25rem;
+}
+
+.btn-portfolio {
+  align-items: center;
+  background: var(--portfolio-accent);
+  border: 1px solid var(--portfolio-accent);
+  border-radius: 6px;
+  color: #fff !important;
+  display: inline-flex;
+  font-weight: 700;
+  gap: 0.45rem;
+  min-height: 2.45rem;
+  padding: 0.55rem 0.85rem;
+  text-decoration: none !important;
+}
+
+.btn-portfolio:hover {
+  background: var(--portfolio-accent-strong);
+  border-color: var(--portfolio-accent-strong);
+  color: #fff !important;
+}
+
+.btn-portfolio--ghost {
+  background: transparent;
+  color: var(--portfolio-accent) !important;
+}
+
+.btn-portfolio--ghost:hover {
+  background: var(--portfolio-surface-2);
+  color: var(--portfolio-accent-strong) !important;
+}
+
+.home-hero__media {
+  margin: 0;
+}
+
+.home-hero__media img {
+  aspect-ratio: 4/5;
+  border: 1px solid var(--portfolio-border);
+  border-radius: 8px;
+  box-shadow: var(--portfolio-shadow);
+  object-fit: cover;
+  width: 100%;
+}
+
+.home-hero__media figcaption {
+  color: var(--global-text-color-light);
+  font-size: 0.85rem;
+  margin-top: 0.65rem;
+  text-align: center;
+}
+
+.signal-grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  margin: 2rem 0;
+}
+
+.signal-item,
+.research-tile,
+.academic-card,
+.publication-card,
+.publication-note {
+  background: var(--portfolio-surface);
+  border: 1px solid var(--portfolio-border);
+  border-radius: 8px;
+}
+
+.signal-item {
+  padding: 1rem;
+}
+
+.signal-item span {
+  color: var(--portfolio-warm);
+  display: block;
+  font-size: 0.8rem;
+  font-weight: 800;
+  margin-bottom: 0.55rem;
+}
+
+.signal-item strong {
+  display: block;
+  font-size: 1.05rem;
+  margin-bottom: 0.35rem;
+}
+
+.signal-item p,
+.research-tile p {
+  color: var(--global-text-color-light);
+  font-size: 0.92rem;
+  line-height: 1.55;
+  margin-bottom: 0;
+}
+
+.research-grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: minmax(220px, 0.9fr) repeat(3, minmax(0, 1fr));
+  margin: 2.25rem 0 1rem;
+}
+
+.research-grid h3 {
+  font-size: 1.45rem;
+  line-height: 1.25;
+}
+
+.research-tile {
+  padding: 1rem;
+}
+
+.research-tile h4 {
+  font-size: 1rem;
+  font-weight: 800;
+  margin-bottom: 0.5rem;
+}
+
+.academic-page {
+  margin-bottom: 2.5rem;
+}
+
+.timeline-stack {
+  display: grid;
+  gap: 1rem;
+}
+
+.academic-card {
+  border-left: 4px solid var(--portfolio-accent);
+  padding: 1.25rem;
+}
+
+.academic-card--split {
+  display: grid;
+  gap: 1.25rem;
+  grid-template-columns: 150px minmax(0, 1fr);
+}
+
+.academic-card__meta {
+  color: var(--global-text-color-light);
+  display: flex;
+  flex-direction: column;
+  font-size: 0.88rem;
+  gap: 0.45rem;
+}
+
+.meta-badge {
+  background: var(--portfolio-accent);
+  border-radius: 6px;
+  color: #fff;
+  display: inline-block;
+  font-size: 0.8rem;
+  font-weight: 800;
+  padding: 0.35rem 0.5rem;
+  text-align: center;
+}
+
+.academic-card__body h2 {
+  font-size: 1.22rem;
+  font-weight: 800;
+  margin-bottom: 0.25rem;
+}
+
+.academic-card__institution {
+  color: var(--portfolio-accent-strong);
+  font-weight: 700;
+  margin-bottom: 0.8rem;
+}
+
+.chip-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  list-style: none;
+  margin: 0.9rem 0 0;
+  padding: 0;
+}
+
+.chip-list li {
+  background: var(--portfolio-surface-2);
+  border: 1px solid var(--portfolio-border);
+  border-radius: 6px;
+  color: var(--global-text-color);
+  font-size: 0.84rem;
+  font-weight: 650;
+  padding: 0.35rem 0.55rem;
+}
+
+.academic-details {
+  border-top: 1px solid var(--global-divider-color);
+  margin-top: 1rem;
+  padding-top: 0.75rem;
+}
+
+.academic-details summary {
+  color: var(--portfolio-accent-strong);
+  cursor: pointer;
+  font-weight: 800;
+}
+
+.academic-details ul {
+  margin-bottom: 0;
+  margin-top: 0.75rem;
+  padding-left: 1.15rem;
+}
+
+.publication-intro {
+  align-items: start;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: minmax(0, 1fr) auto;
+  margin-bottom: 1.5rem;
+}
+
+.publication-section h2 {
+  font-size: 1.25rem;
+  margin-bottom: 0.85rem;
+}
+
+.publication-card {
+  padding: 1rem;
+}
+
+.publication-card ol.bibliography {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.publication-card ol.bibliography:empty::before {
+  color: var(--global-text-color-light);
+  content: "No publications have been added yet.";
+  display: block;
+  font-style: italic;
+  padding: 0.5rem 0;
+}
+
+.publication-card ol.bibliography li {
+  border-bottom: 1px solid var(--global-divider-color);
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+}
+
+.publication-card ol.bibliography li:last-child {
+  border-bottom: 0;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.publication-card .title {
+  font-weight: 800;
+}
+
+.publication-note {
+  color: var(--global-text-color-light);
+  font-size: 0.92rem;
+  line-height: 1.6;
+  margin-top: 1rem;
+  padding: 1rem;
+}
+
+.header-bar h2 {
+  color: var(--global-text-color-light);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.7;
+  margin: 0.75rem auto 0;
+  max-width: 760px;
+}
+
+@media (max-width: 900px) {
+  .home-hero,
+  .publication-intro,
+  .research-grid {
+    grid-template-columns: 1fr;
+  }
+  .home-hero__media {
+    max-width: 320px;
+  }
+  .signal-grid {
+    grid-template-columns: 1fr;
+  }
+}
+@media (max-width: 640px) {
+  .home-hero {
+    padding-top: 0.75rem;
+  }
+  .home-hero h2 {
+    font-size: 1.85rem;
+  }
+  .academic-card--split {
+    grid-template-columns: 1fr;
+  }
+  .academic-card__meta {
+    align-items: flex-start;
+  }
+  .header-bar h1 {
+    font-size: 3rem;
   }
 }
 /*******************************************************************************
