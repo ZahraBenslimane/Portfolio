@@ -18,7 +18,9 @@ nav_order: 2
     </p>
     <div class="publication-actions">
       <a class="btn-portfolio" href="{{ '/blog/' | relative_url }}"><i class="fas fa-pen-nib"></i> Research blog</a>
+      {% comment %}
       <a class="btn-portfolio btn-portfolio--ghost" href="{{ '/projects/' | relative_url }}"><i class="fas fa-code-branch"></i> Projects</a>
+      {% endcomment %}
     </div>
   </div>
 

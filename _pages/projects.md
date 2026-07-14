@@ -3,8 +3,9 @@ layout: page
 title: projects
 permalink: /projects/
 description: Research prototypes, engineering builds, and applied AI projects.
-nav: true
+nav: false
 nav_order: 6
+published: false
 display_categories: [work, fun]
 horizontal: false
 ---

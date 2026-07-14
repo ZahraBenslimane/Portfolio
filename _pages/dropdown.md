@@ -7,7 +7,8 @@ dropdown: true
 children: 
     - title: publications
       permalink: /publications/
-    - title: divider
-    - title: projects
-      permalink: /projects/
+    # Projects is switched off for now; uncomment this block to restore it.
+    # - title: divider
+    # - title: projects
+    #   permalink: /projects/
 ---
