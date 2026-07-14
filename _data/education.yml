@@ -2,10 +2,6 @@
   institution: Doctoral research
   location: France
   period: Current
-  focus:
-    - Speech and audio AI
-    - Efficient neural networks
-    - Robust model deployment
   summary: >
     Current doctoral work centered on machine learning systems for speech and audio,
     with an emphasis on reproducible experiments, efficient models, and research code
@@ -24,11 +20,11 @@
 - degree: M.Sc. in Smart Systems Engineering
   institution: Sorbonne University
   location: Paris, France
-  period: 2023
-  focus:
-    - Machine learning and deep learning
-    - Computer vision
-    - Audio signal processing
+  period: 2021-2023
+  #focus:
+  #  - Machine learning and deep learning
+  #  - Computer vision
+  #  - Audio signal processing
   summary: >
     Graduate training across AI, signal processing, computer vision, embedded systems,
     and applied mathematics, with projects spanning neural network compression,
@@ -58,11 +54,7 @@
 - degree: B.Sc. in Electronics, Electrical Engineering, and Automatics
   institution: Sorbonne University
   location: Paris, France
-  period: 2021
-  focus:
-    - Embedded systems
-    - Digital and analog electronics
-    - Robotics and control theory
+  period: 2019-2021
   summary: >
     Undergraduate foundation in electronic circuits, microprocessors, FPGA design,
     signal processing, control theory, robotics, and hardware-oriented prototyping.
