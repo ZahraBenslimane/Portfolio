@@ -160,40 +160,69 @@
         
 
         
-        <div class="academic-module-list" aria-label="Ph.D. Student details">
+        
+        <div class="academic-topic-tabs" aria-label="Ph.D. Student details">
           
 
           
           
-          <section class="academic-module">
-            <h3>Research toolkit</h3>
-            <ul>
-              
-              <li>Reproducible training, evaluation, and inference workflows.</li>
-              
-              <li>Audio-oriented deep learning experiments and metrics.</li>
-              
-              <li>Model quality, computational cost, and deployment-aware analysis.</li>
-              
-            </ul>
-          </section>
+          <input class="academic-topic-input" type="radio" name="education-topic-0" id="education-topic-0-detail-0" checked>
           
           
 
           
-          <section class="academic-module">
-            <h3>Current activities</h3>
-            <ul>
-              
-              <li>Building and evaluating deep learning models for audio and speech processing tasks.</li>
-              
-              <li>Studying model compression, robustness, and deployment constraints for real-world systems.</li>
-              
-              <li>Maintaining research tooling for experiments, metrics, and inference workflows.</li>
-              
-            </ul>
-          </section>
+          <input class="academic-topic-input" type="radio" name="education-topic-0" id="education-topic-0-activities">
           
+
+          <div class="academic-topic-buttons">
+            
+
+            
+            
+            <label class="academic-topic-button" for="education-topic-0-detail-0">Research toolkit</label>
+            
+            
+
+            
+            <label class="academic-topic-button" for="education-topic-0-activities">Current activities</label>
+            
+          </div>
+
+          <div class="academic-topic-panels">
+            
+
+            
+            
+            <section class="academic-topic-panel">
+              <h3>Research toolkit</h3>
+              <ul>
+                
+                <li>Reproducible training, evaluation, and inference workflows.</li>
+                
+                <li>Audio-oriented deep learning experiments and metrics.</li>
+                
+                <li>Model quality, computational cost, and deployment-aware analysis.</li>
+                
+              </ul>
+            </section>
+            
+            
+
+            
+            <section class="academic-topic-panel">
+              <h3>Current activities</h3>
+              <ul>
+                
+                <li>Building and evaluating deep learning models for audio and speech processing tasks.</li>
+                
+                <li>Studying model compression, robustness, and deployment constraints for real-world systems.</li>
+                
+                <li>Maintaining research tooling for experiments, metrics, and inference workflows.</li>
+                
+              </ul>
+            </section>
+            
+          </div>
         </div>
         
       </div>
@@ -223,68 +252,105 @@
         
 
         
-        <div class="academic-module-list" aria-label="M.Sc. in Smart Systems Engineering details">
+        
+        <div class="academic-topic-tabs" aria-label="M.Sc. in Smart Systems Engineering details">
           
-          <section class="academic-module">
-            <h3>Core topics and tools</h3>
-            <ul>
-              
-              <li>TensorFlow, PyTorch, Keras, pandas, scikit-learn</li>
-              
-              <li>CNNs, RNNs, autoencoders, GANs, pruning, folding, quantization</li>
-              
-              <li>Beamforming, TDOA estimation, NMF, time-frequency analysis</li>
-              
-            </ul>
-          </section>
+          <input class="academic-topic-input" type="radio" name="education-topic-1" id="education-topic-1-core" checked>
           
 
           
           
-          <section class="academic-module">
-            <h3>Machine learning and deep learning</h3>
-            <ul>
-              
-              <li>TensorFlow, PyTorch, Keras, pandas, and scikit-learn.</li>
-              
-              <li>MLPs, CNNs, RNNs, autoencoders, and GANs.</li>
-              
-              <li>Neural network compression methods including folding, pruning, and quantization.</li>
-              
-            </ul>
-          </section>
+          <input class="academic-topic-input" type="radio" name="education-topic-1" id="education-topic-1-detail-0">
           
-          <section class="academic-module">
-            <h3>Image processing and computer vision</h3>
-            <ul>
-              
-              <li>Image stitching, blob detection, regions of interest, and feature-based image analysis.</li>
-              
-              <li>Motion detection and estimation with block matching, Lucas-Kanade, and Horn-Schunck approaches.</li>
-              
-              <li>Object tracking with Kalman and particle filters.</li>
-              
-              <li>Real-time image processing on Nvidia Jetson Nano with OpenCV, Pillow, and scikit-image.</li>
-              
-            </ul>
-          </section>
+          <input class="academic-topic-input" type="radio" name="education-topic-1" id="education-topic-1-detail-1">
           
-          <section class="academic-module">
-            <h3>Audio signal processing</h3>
-            <ul>
-              
-              <li>Time-frequency analysis and audio compression.</li>
-              
-              <li>Beamforming and Time Delay of Arrival estimation for sound source localization.</li>
-              
-              <li>Audio source separation with Non-negative Matrix Factorization.</li>
-              
-            </ul>
-          </section>
+          <input class="academic-topic-input" type="radio" name="education-topic-1" id="education-topic-1-detail-2">
           
           
 
           
+
+          <div class="academic-topic-buttons">
+            
+            <label class="academic-topic-button" for="education-topic-1-core">Core topics and tools</label>
+            
+
+            
+            
+            <label class="academic-topic-button" for="education-topic-1-detail-0">Machine learning and deep learning</label>
+            
+            <label class="academic-topic-button" for="education-topic-1-detail-1">Image processing and computer vision</label>
+            
+            <label class="academic-topic-button" for="education-topic-1-detail-2">Audio signal processing</label>
+            
+            
+
+            
+          </div>
+
+          <div class="academic-topic-panels">
+            
+            <section class="academic-topic-panel">
+              <h3>Core topics and tools</h3>
+              <ul>
+                
+                <li>TensorFlow, PyTorch, Keras, pandas, scikit-learn</li>
+                
+                <li>CNNs, RNNs, autoencoders, GANs, pruning, folding, quantization</li>
+                
+                <li>Beamforming, TDOA estimation, NMF, time-frequency analysis</li>
+                
+              </ul>
+            </section>
+            
+
+            
+            
+            <section class="academic-topic-panel">
+              <h3>Machine learning and deep learning</h3>
+              <ul>
+                
+                <li>TensorFlow, PyTorch, Keras, pandas, and scikit-learn.</li>
+                
+                <li>MLPs, CNNs, RNNs, autoencoders, and GANs.</li>
+                
+                <li>Neural network compression methods including folding, pruning, and quantization.</li>
+                
+              </ul>
+            </section>
+            
+            <section class="academic-topic-panel">
+              <h3>Image processing and computer vision</h3>
+              <ul>
+                
+                <li>Image stitching, blob detection, regions of interest, and feature-based image analysis.</li>
+                
+                <li>Motion detection and estimation with block matching, Lucas-Kanade, and Horn-Schunck approaches.</li>
+                
+                <li>Object tracking with Kalman and particle filters.</li>
+                
+                <li>Real-time image processing on Nvidia Jetson Nano with OpenCV, Pillow, and scikit-image.</li>
+                
+              </ul>
+            </section>
+            
+            <section class="academic-topic-panel">
+              <h3>Audio signal processing</h3>
+              <ul>
+                
+                <li>Time-frequency analysis and audio compression.</li>
+                
+                <li>Beamforming and Time Delay of Arrival estimation for sound source localization.</li>
+                
+                <li>Audio source separation with Non-negative Matrix Factorization.</li>
+                
+              </ul>
+            </section>
+            
+            
+
+            
+          </div>
         </div>
         
       </div>
@@ -314,66 +380,103 @@
         
 
         
-        <div class="academic-module-list" aria-label="B.Sc. in Electronics, Electrical Engineering, and Automatics details">
+        
+        <div class="academic-topic-tabs" aria-label="B.Sc. in Electronics, Electrical Engineering, and Automatics details">
           
-          <section class="academic-module">
-            <h3>Core topics and tools</h3>
-            <ul>
-              
-              <li>VHDL, finite-state machines, memories, processor architecture</li>
-              
-              <li>Analog/digital circuits, op-amps, semiconductors, logic design</li>
-              
-              <li>PID control, Simulink, robot trajectory planning, PCB design</li>
-              
-            </ul>
-          </section>
+          <input class="academic-topic-input" type="radio" name="education-topic-2" id="education-topic-2-core" checked>
           
 
           
           
-          <section class="academic-module">
-            <h3>Digital systems and microprocessors</h3>
-            <ul>
-              
-              <li>FPGA design, VHDL, finite-state machines, memories, and processor architecture.</li>
-              
-              <li>Interrupts, timers, memory management, peripherals, communication protocols, and low-level programming.</li>
-              
-              <li>Xilinx Vivado, ModelSim, and Keil uVision for embedded and hardware design workflows.</li>
-              
-            </ul>
-          </section>
+          <input class="academic-topic-input" type="radio" name="education-topic-2" id="education-topic-2-detail-0">
           
-          <section class="academic-module">
-            <h3>Electronics and signal systems</h3>
-            <ul>
-              
-              <li>Analog circuits, digital logic, op-amps, semiconductors, Boolean algebra, and integrated circuits.</li>
-              
-              <li>Signal processing, electromagnetism, wave propagation, and antenna radiation.</li>
-              
-              <li>Circuit design and simulation with PSpice, LTspice, Eagle, and 4NEC2.</li>
-              
-            </ul>
-          </section>
+          <input class="academic-topic-input" type="radio" name="education-topic-2" id="education-topic-2-detail-1">
           
-          <section class="academic-module">
-            <h3>Robotics and control</h3>
-            <ul>
-              
-              <li>Robot trajectory planning and mathematical modeling of physical systems.</li>
-              
-              <li>PID tuning with Simulink.</li>
-              
-              <li>Lab work with oscilloscopes, multimeters, AC/DC power sources, soldering, and wiring.</li>
-              
-            </ul>
-          </section>
+          <input class="academic-topic-input" type="radio" name="education-topic-2" id="education-topic-2-detail-2">
           
           
 
           
+
+          <div class="academic-topic-buttons">
+            
+            <label class="academic-topic-button" for="education-topic-2-core">Core topics and tools</label>
+            
+
+            
+            
+            <label class="academic-topic-button" for="education-topic-2-detail-0">Digital systems and microprocessors</label>
+            
+            <label class="academic-topic-button" for="education-topic-2-detail-1">Electronics and signal systems</label>
+            
+            <label class="academic-topic-button" for="education-topic-2-detail-2">Robotics and control</label>
+            
+            
+
+            
+          </div>
+
+          <div class="academic-topic-panels">
+            
+            <section class="academic-topic-panel">
+              <h3>Core topics and tools</h3>
+              <ul>
+                
+                <li>VHDL, finite-state machines, memories, processor architecture</li>
+                
+                <li>Analog/digital circuits, op-amps, semiconductors, logic design</li>
+                
+                <li>PID control, Simulink, robot trajectory planning, PCB design</li>
+                
+              </ul>
+            </section>
+            
+
+            
+            
+            <section class="academic-topic-panel">
+              <h3>Digital systems and microprocessors</h3>
+              <ul>
+                
+                <li>FPGA design, VHDL, finite-state machines, memories, and processor architecture.</li>
+                
+                <li>Interrupts, timers, memory management, peripherals, communication protocols, and low-level programming.</li>
+                
+                <li>Xilinx Vivado, ModelSim, and Keil uVision for embedded and hardware design workflows.</li>
+                
+              </ul>
+            </section>
+            
+            <section class="academic-topic-panel">
+              <h3>Electronics and signal systems</h3>
+              <ul>
+                
+                <li>Analog circuits, digital logic, op-amps, semiconductors, Boolean algebra, and integrated circuits.</li>
+                
+                <li>Signal processing, electromagnetism, wave propagation, and antenna radiation.</li>
+                
+                <li>Circuit design and simulation with PSpice, LTspice, Eagle, and 4NEC2.</li>
+                
+              </ul>
+            </section>
+            
+            <section class="academic-topic-panel">
+              <h3>Robotics and control</h3>
+              <ul>
+                
+                <li>Robot trajectory planning and mathematical modeling of physical systems.</li>
+                
+                <li>PID tuning with Simulink.</li>
+                
+                <li>Lab work with oscilloscopes, multimeters, AC/DC power sources, soldering, and wiring.</li>
+                
+              </ul>
+            </section>
+            
+            
+
+            
+          </div>
         </div>
         
       </div>
