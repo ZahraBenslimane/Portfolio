@@ -12,9 +12,8 @@ nav_order: 3
 
   <div class="publication-intro">
     <p>
-      This page is set up for peer-reviewed papers, preprints, book chapters, posters,
-      code, and project pages. Add BibTeX entries to <code>_bibliography/papers.bib</code>
-      and Jekyll Scholar will render them here.
+      Selected peer-reviewed papers and preprints in speech enhancement,
+      efficient neural inference, and deployable audio machine learning.
     </p>
     <div class="publication-actions">
       <a class="btn-portfolio" href="{{ '/blog/' | relative_url }}"><i class="fas fa-pen-nib"></i> Research blog</a>
@@ -25,16 +24,14 @@ nav_order: 3
   </div>
 
   <section class="publication-section">
-    <h2>Selected and peer-reviewed work</h2>
+    <h2>Papers and preprints</h2>
     <div class="publication-card">
       {% bibliography %}
     </div>
   </section>
 
   <aside class="publication-note">
-    <strong>Suggested structure:</strong> use <code>abbr</code> for the venue badge,
-    <code>pdf</code> for papers, <code>code</code> for repositories,
-    <code>website</code> for project pages, and <code>bibtex_show={true}</code>
-    when you want a BibTeX toggle.
+    Accepted papers, preprints, and under-review manuscripts are listed here with links to
+    arXiv, PDFs, and BibTeX entries when available.
   </aside>
 </div>
