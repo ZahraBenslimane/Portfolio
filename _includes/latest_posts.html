@@ -1,9 +1,7 @@
 
-          <div class="news">
+          <div class="news home-feed__list">
             {% if site.latest_posts != blank -%}
             {%- assign latest_posts_size = site.posts | size -%}
-            <div class="table-responsive" {% if site.latest_posts.scrollable and latest_posts_size > 3 %}style="max-height: 60vw"{% endif %}>
-              <table class="table table-sm table-borderless">
               {%- assign latest_posts = site.posts -%}
               {% if site.latest_posts.limit %}
               {% assign latest_posts_limit = site.latest_posts.limit %}
@@ -11,9 +9,9 @@
               {% assign latest_posts_limit = latest_posts_size %}
               {% endif %}
               {% for item in latest_posts limit: latest_posts_limit %}
-                <tr>
-                  <th scope="row">{{ item.date | date: "%b %-d, %Y" }}</th>
-                  <td>
+                <article class="home-feed-card">
+                  <time class="home-feed-card__date" datetime="{{ item.date | date_to_xmlschema }}">{{ item.date | date: "%b %-d, %Y" }}</time>
+                  <div class="home-feed-card__body">
                     {% if item.redirect contains '://' %}
                       <a class="news-title" href="{{ item.redirect }}" target="_blank" rel="external nofollow noopener">{{ item.title }}</a>
                     {% elsif item.redirect %}
@@ -21,11 +19,9 @@
                     {% else %}
                       <a class="news-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
                     {% endif %}
-                  </td>
-                </tr>
+                  </div>
+                </article>
               {%- endfor %}
-              </table>
-            </div>
           {%- else -%}
             <p>No posts so far...</p>
           {%- endif %}

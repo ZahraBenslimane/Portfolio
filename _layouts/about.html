@@ -40,16 +40,30 @@ layout: default
             {{ content }}
           </div>
 
-          <!-- News -->
-          {% if page.news and site.announcements.enabled -%}
-            <h2><a href="{{ '/news/' | relative_url }}" style="color: inherit;">news</a></h2>
-            {%- include news.html limit=true %}
-          {%- endif %}
+          {% if page.news and site.announcements.enabled or page.latest_posts -%}
+          <section class="home-updates-grid" aria-label="Updates and latest writing">
+            <!-- News -->
+            {% if page.news and site.announcements.enabled -%}
+            <div class="home-feed">
+              <div class="home-feed__header">
+                <p class="section-kicker">__ News ______</p>
+                <a href="{{ '/news/' | relative_url }}">View all</a>
+              </div>
+              {%- include news.html limit=true %}
+            </div>
+            {%- endif %}
 
-          <!-- Latest posts -->
-          {% if page.latest_posts -%}
-            <h2><a href="{{ '/blog/' | relative_url }}" style="color: inherit;">latest posts</a></h2>
-            {%- include latest_posts.html %}
+            <!-- Latest posts -->
+            {% if page.latest_posts -%}
+            <div class="home-feed">
+              <div class="home-feed__header">
+                <p class="section-kicker">__ Latest posts ______</p>
+                <a href="{{ '/blog/' | relative_url }}">View all</a>
+              </div>
+              {%- include latest_posts.html %}
+            </div>
+            {%- endif %}
+          </section>
           {%- endif %}
 
           <!-- Selected papers -->
