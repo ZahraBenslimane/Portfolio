@@ -1180,6 +1180,15 @@ html[data-theme=dark] {
   padding: 0.38rem 0.6rem;
 }
 
+.home-publications-section {
+  margin: 2.25rem 0;
+  scroll-margin-top: 5rem;
+}
+
+.home-publications-section .publication-card {
+  margin-top: 0.85rem;
+}
+
 .signal-grid {
   display: grid;
   gap: 1rem;
