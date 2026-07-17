@@ -7,7 +7,7 @@ subtitle: #<a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 profile: false
 
 news: True  # includes a list of news items
-latest_posts: True  # includes a list of the newest posts
+latest_posts: False  # includes a list of the newest posts
 selected_papers: False # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
