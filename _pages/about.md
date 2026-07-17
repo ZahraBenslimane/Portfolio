@@ -27,9 +27,8 @@ social: true  # includes social icons at the bottom of the page
       industrial AI, and MLOps.
     </p>
     <div class="home-hero__actions">
-      <a class="btn-portfolio" href="#publications"><i class="fas fa-book-open"></i> Publications</a>
       <a class="btn-portfolio btn-portfolio--ghost" href="{{ '/education/' | relative_url }}"><i class="fas fa-graduation-cap"></i> Education</a>
-      <a class="btn-portfolio btn-portfolio--ghost" href="{{ '/assets/pdf/example_pdf.pdf' | relative_url }}" download><i class="fas fa-file-pdf"></i> Download CV</a>
+      <a class="btn-portfolio" href="{{ '/assets/pdf/example_pdf.pdf' | relative_url }}" download><i class="fas fa-file-pdf"></i> Download CV</a>
     </div>
   </div>
   <figure class="home-hero__media">
