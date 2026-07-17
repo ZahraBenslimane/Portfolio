@@ -15,11 +15,16 @@ social: true  # includes social icons at the bottom of the page
 <section class="home-hero">
   <div class="home-hero__copy">
     <p class="home-hero__eyebrow">Ph.D. student · AI for speech and audio · Paris, France</p>
-    <h2>Building machine learning systems that listen carefully and run efficiently.</h2>
+    <h2>Improving speech understanding with neural networks for real-time embedded systems.</h2>
     <p>
-      I am Zahra Hafida Benslimane, a Ph.D. student working at the intersection of
-      audio signal processing, deep learning, and deployable AI. My background spans
-      smart systems engineering, computer vision, embedded systems, and industrial AI.
+      I am Zahra Hafida Benslimane, a Ph.D. student working on neural networks for
+      improving speech understanding in real-time embedded systems. My research focuses
+      on speech enhancement, binaural audio, efficient inference, and deployable AI for
+      resource-constrained audio devices.
+    </p>
+    <p>
+      My background spans smart systems engineering, computer vision, embedded systems,
+      industrial AI, and MLOps.
     </p>
     <div class="home-hero__actions">
       <a class="btn-portfolio" href="#publications"><i class="fas fa-book-open"></i> Publications</a>
@@ -31,26 +36,6 @@ social: true  # includes social icons at the bottom of the page
     <img src="{{ '/assets/img/prof_pic.jpg' | relative_url }}" alt="Portrait of Zahra Benslimane">
     <figcaption>AI · signal processing · research engineering</figcaption>
   </figure>
-</section>
-
-<section class="current-research-card" aria-label="Current research">
-  <div class="current-research-card__meta">
-    <span>Currently working on</span>
-  </div>
-  <div class="current-research-card__body">
-    <p class="section-kicker">__ Current Research ______</p>
-    <h3>Real-time distributed binaural speech enhancement for low-power hearing-aid devices.</h3>
-    <p>
-      My Ph.D. research explores how efficient neural models can improve speech enhancement
-      while staying practical for real-time, resource-constrained audio devices.
-    </p>
-    <ul class="current-research-card__chips">
-      <li>Speech enhancement</li>
-      <li>Binaural audio</li>
-      <li>Quantization</li>
-      <li>Low-power AI</li>
-    </ul>
-  </div>
 </section>
 
 <section id="publications" class="home-publications-section">
