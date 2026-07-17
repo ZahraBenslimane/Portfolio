@@ -1128,62 +1128,6 @@ html[data-theme=dark] {
   text-align: center;
 }
 
-.current-research-card {
-  align-items: start;
-  background: var(--portfolio-surface);
-  border: 1px solid var(--portfolio-border);
-  border-radius: 8px;
-  display: grid;
-  gap: 1.25rem;
-  grid-template-columns: 12rem minmax(0, 1fr);
-  margin: 2rem 0;
-  padding: 1.25rem;
-}
-
-.current-research-card__meta span {
-  color: var(--portfolio-warm);
-  display: inline-block;
-  font-size: 0.78rem;
-  font-weight: 800;
-  letter-spacing: 0;
-  line-height: 1.35;
-  text-transform: uppercase;
-}
-
-.current-research-card__body .section-kicker {
-  margin-bottom: 0.5rem;
-}
-
-.current-research-card h3 {
-  font-size: 1.45rem;
-  line-height: 1.25;
-  margin-bottom: 0.75rem;
-}
-
-.current-research-card p {
-  color: var(--global-text-color-light);
-  line-height: 1.65;
-  margin-bottom: 0;
-}
-
-.current-research-card__chips {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.55rem;
-  list-style: none;
-  margin: 1rem 0 0;
-  padding: 0;
-}
-
-.current-research-card__chips li {
-  border: 1px solid var(--portfolio-border);
-  border-radius: 6px;
-  color: var(--global-text-color);
-  font-size: 0.82rem;
-  font-weight: 700;
-  padding: 0.38rem 0.6rem;
-}
-
 .home-publications-section {
   margin: 2.25rem 0;
   scroll-margin-top: 5rem;
@@ -1534,7 +1478,6 @@ html[data-theme=dark] {
 
 @media (max-width: 900px) {
   .home-hero,
-  .current-research-card,
   .publication-intro,
   .research-grid {
     grid-template-columns: 1fr;
