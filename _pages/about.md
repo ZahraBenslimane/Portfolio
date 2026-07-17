@@ -33,3 +33,23 @@ social: true  # includes social icons at the bottom of the page
   </figure>
 </section>
 
+<section class="current-research-card" aria-label="Current research">
+  <div class="current-research-card__meta">
+    <span>Currently working on</span>
+  </div>
+  <div class="current-research-card__body">
+    <p class="section-kicker">__ Current Research ______</p>
+    <h3>Real-time distributed binaural speech enhancement for low-power hearing-aid devices.</h3>
+    <p>
+      My Ph.D. research explores how efficient neural models can improve speech enhancement
+      while staying practical for real-time, resource-constrained audio devices.
+    </p>
+    <ul class="current-research-card__chips">
+      <li>Speech enhancement</li>
+      <li>Binaural audio</li>
+      <li>Quantization</li>
+      <li>Low-power AI</li>
+    </ul>
+  </div>
+</section>
+
