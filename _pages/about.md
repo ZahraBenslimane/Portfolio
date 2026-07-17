@@ -22,7 +22,7 @@ social: true  # includes social icons at the bottom of the page
       smart systems engineering, computer vision, embedded systems, and industrial AI.
     </p>
     <div class="home-hero__actions">
-      <a class="btn-portfolio" href="{{ '/publications/' | relative_url }}"><i class="fas fa-book-open"></i> Publications</a>
+      <a class="btn-portfolio" href="#publications"><i class="fas fa-book-open"></i> Publications</a>
       <a class="btn-portfolio btn-portfolio--ghost" href="{{ '/education/' | relative_url }}"><i class="fas fa-graduation-cap"></i> Education</a>
       <a class="btn-portfolio btn-portfolio--ghost" href="{{ '/assets/pdf/example_pdf.pdf' | relative_url }}" download><i class="fas fa-file-pdf"></i> Download CV</a>
     </div>
@@ -50,6 +50,14 @@ social: true  # includes social icons at the bottom of the page
       <li>Quantization</li>
       <li>Low-power AI</li>
     </ul>
+  </div>
+</section>
+
+<section id="publications" class="home-publications-section">
+  <p class="section-kicker">__ Publications ______</p>
+
+  <div class="publication-card">
+    {% bibliography %}
   </div>
 </section>
 

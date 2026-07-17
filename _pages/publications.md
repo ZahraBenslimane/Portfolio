@@ -3,8 +3,9 @@ layout: page
 permalink: /publications/
 title: publications
 description: Papers, preprints and technical reports.
-nav: true
+nav: false
 nav_order: 3
+published: false
 ---
 
 <div class="academic-page publications-page">
