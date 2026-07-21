@@ -413,8 +413,8 @@ footer.sticky-bottom {
 }
 
 .blog-header h1 {
-  font-size: 3.2rem;
-  line-height: 1.1;
+  font-size: 1.25rem;
+  line-height: 1.15;
 }
 
 .tag-list {
@@ -1511,7 +1511,7 @@ html[data-theme=dark] {
     font-size: 3rem;
   }
   .blog-header h1 {
-    font-size: 2.25rem;
+    font-size: 1.9rem;
   }
 }
 /*******************************************************************************
