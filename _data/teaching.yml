@@ -1,25 +1,29 @@
-- title: Teaching and Mentoring
-  institution: Doctoral and lab activities
-  period: Ongoing
-  role: Teaching interests
-  description: >
-    A place to collect future teaching assistant work, tutorials, lab sessions,
-    and mentoring material around machine learning, signal processing, and research coding.
-  topics:
-    - Python for reproducible research
-    - Machine learning and deep learning labs
-    - Audio signal processing tutorials
-    - Practical experiment design
-
 - title: Workshop Materials
-  institution: Research portfolio
-  period: In preparation
+  institution: IUT de cachan, Université Paris-Saclay
+  period: 2026
   role: Notes and resources
   description: >
     Short technical notes, demos, and notebooks can be linked here when they are ready
     to share with students, collaborators, or readers of the blog.
-  topics:
-    - Paper summaries
-    - Model compression notes
-    - Speech enhancement experiments
-    - Tools for clean research code
+  # topics:
+  #   - Paper summaries
+  #   - Model compression notes
+  #   - Speech enhancement experiments
+  #   - Tools for clean research code
+
+- title: Teaching and Mentoring
+  institution: ENSTA Paris, Université Paris-Saclay
+  period: 2025
+  role: Teaching interests
+  description: >
+    A place to collect future teaching assistant work, tutorials, lab sessions,
+    and mentoring material around machine learning, signal processing, and research coding.
+
+
+- title: Workshop Materials
+  institution: IUT de cachan, Université Paris-Saclay
+  period: 2025
+  role: Notes and resources
+  description: >
+    Short technical notes, demos, and notebooks can be linked here when they are ready
+    to share with students, collaborators, or readers of the blog.

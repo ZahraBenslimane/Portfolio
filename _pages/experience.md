@@ -46,7 +46,7 @@ hide_header: true
     {% endfor %}
   </div>
 
-  <section class="experience-teaching">
+  <section class="experience-teaching academic-section">
     <p class="section-kicker">__ Teaching and Mentoring ______</p>
 
     <div class="timeline-stack">
