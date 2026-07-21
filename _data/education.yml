@@ -38,7 +38,7 @@
     - title: Image processing and computer vision
       items:
         - Image stitching, blob detection, regions of interest, and feature-based image analysis.
-        - Motion detection and estimation with block matching, Lucas-Kanade, and Horn-Schunck approaches.
+        - Motion detection and estimation with block matching, Lucas-Kanade, and Horn-Schunck.
         - Object tracking with Kalman and particle filters.
         - Real-time image processing on Nvidia Jetson Nano with OpenCV, Pillow, and scikit-image.
     - title: Audio signal processing
