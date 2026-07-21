@@ -119,9 +119,9 @@ bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: Blog Posts # blog_name will be displayed in your blog page
+blog_name: Research Notes # blog_name will be displayed in your blog page
 blog_nav_title: Blog # your blog must have a title for it to be displayed in the nav bar
-blog_description: Welcome to my blog, where I share my passion for exploring the remarkable realms of AI, applied mathematics and cutting-edge technologies. Through this blog, I provide valuable insights and showcase my academic journey in these transformative fields. Join me as I share project experiences and highlight the fascinating applications of AI.
+blog_description: Short notes on speech and audio machine learning, paper summaries, experiment ideas, and the practical side of building AI systems that can run beyond the lab.
 permalink: /blog/:year/:title/
 
 # Pagination
