@@ -9,7 +9,7 @@ profile: false
 news: False  # includes a list of news items
 latest_posts: False  # includes a list of the newest posts
 selected_papers: False # includes a list of papers marked as "selected={true}"
-social: true  # includes social icons at the bottom of the page
+social: false  # social icons are shown below the portrait
 ---
 
 <section class="home-hero">
@@ -40,6 +40,12 @@ social: true  # includes social icons at the bottom of the page
   <figure class="home-hero__media">
     <img src="{{ '/assets/img/prof_pic.jpg' | relative_url }}" alt="Portrait of Zahra Benslimane">
     <figcaption>AI · signal processing · research engineering</figcaption>
+    <div class="home-hero__contact">
+      <p>{{ site.contact_note }}</p>
+      <div class="home-hero__contact-icons" aria-label="Contact and social links">
+        {% include social.html %}
+      </div>
+    </div>
   </figure>
 </section>
 
