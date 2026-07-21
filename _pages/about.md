@@ -27,10 +27,6 @@ social: true  # includes social icons at the bottom of the page
       My PhD research focuses on embedded AI for speech processing, with a particular emphasis on low-latency and lowcomputational-cost multi-microphone speech enhancement for resource-constrained systems. This project is conducted in collaboration with LORIA and Institut Pasteur research laboratories, with the objective of developing efficient AI-based embedded hearing-assistance devices.
     </p>
     
-    <p>
-      My background spans smart systems engineering, computer vision, embedded systems,
-      industrial AI, and MLOps.
-    </p>
     <div class="home-hero__actions">
       <a class="btn-portfolio" href="{{ '/assets/pdf/example_pdf.pdf' | relative_url }}" download><i class="fas fa-file-pdf"></i> Download CV</a>
       <a class="btn-portfolio btn-portfolio--ghost" href="{{ '/education/' | relative_url }}"><i class="fas fa-graduation-cap"></i> Education</a>
