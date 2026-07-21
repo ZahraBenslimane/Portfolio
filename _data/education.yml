@@ -3,9 +3,8 @@
   location: France
   period: Current
   focus:
-    - Speech enhancement
+    - Multichannel Speech enhancement
     - Binaural audio
-    - Embedded AI
     - Model compression
     - Efficient inference
     - Hearing-assistance systems
@@ -14,21 +13,13 @@
     real-time embedded systems. The project targets low-latency, low-computational-cost
     binaural and multi-microphone speech enhancement for resource-constrained
     hearing-assistance devices.
-  activities:
-    - Building and evaluating neural speech-enhancement models for real-time audio processing.
-    - Studying model compression, quantization, and efficient inference for embedded deployment.
-    - Designing reproducible experiments that connect speech quality, intelligibility, latency, and computational cost.
   details:
     - title: Ph.D. project
       items:
-        - Developing efficient AI methods for hearing-assistance systems and low-power audio devices.
+        - Developing and evaluating neural speech-enhancement models for real-time audio processing.
         - Working with binaural and multi-microphone signals to improve speech understanding in noisy environments.
-        - Balancing audio quality, model size, latency, and deployment constraints for real-world hardware.
-    - title: Research toolkit
-      items:
-        - Reproducible training, evaluation, and inference workflows for speech/audio models.
-        - Deployment-aware analysis of model quality, computational cost, and real-time behavior.
-        - Experiment tooling for metrics, ablations, and comparison across model configurations.
+        - Studying model compression, quantization, and efficient inference for embedded hearing-assistance devices.
+        - Designing reproducible experiments that connect speech quality, intelligibility, latency, model size, and computational cost.
 
 - degree: M.Sc. in Smart Systems Engineering
   institution: Sorbonne University
