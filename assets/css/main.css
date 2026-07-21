@@ -1136,6 +1136,53 @@ html[data-theme=dark] {
   text-align: center;
 }
 
+.home-hero__contact {
+  background: var(--portfolio-surface);
+  border: 1px solid var(--portfolio-border);
+  border-radius: 8px;
+  margin-top: 0.85rem;
+  padding: 0.85rem;
+  text-align: center;
+}
+
+.home-hero__contact p {
+  color: var(--global-text-color-light);
+  font-size: 0.88rem;
+  line-height: 1.45;
+  margin: 0 0 0.65rem;
+}
+
+.home-hero__contact-icons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  justify-content: center;
+}
+
+.home-hero__contact-icons a {
+  align-items: center;
+  border: 1px solid var(--portfolio-border);
+  border-radius: 6px;
+  color: var(--global-text-color);
+  display: inline-flex;
+  font-size: 1.15rem;
+  height: 2rem;
+  justify-content: center;
+  text-decoration: none;
+  transition: border-color 160ms ease, color 160ms ease, transform 160ms ease;
+  width: 2rem;
+}
+
+.home-hero__contact-icons a:hover {
+  border-color: var(--portfolio-accent);
+  color: var(--portfolio-accent);
+  transform: translateY(-1px);
+}
+
+.home-hero__contact-icons a i::before {
+  color: currentColor;
+}
+
 .home-publications-section {
   margin: 2.25rem 0;
   scroll-margin-top: 5rem;
