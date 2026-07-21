@@ -1,10 +1,11 @@
 ---
 layout: page
 permalink: /education/
-title: education
+title: Education
 description: Degrees, doctoral training, coursework, and academic projects.
 nav: true
 nav_order: 1
+hide_header: true
 ---
 
 <div class="academic-page">

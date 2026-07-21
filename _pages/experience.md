@@ -1,10 +1,11 @@
 ---
 layout: page
 permalink: /experience/
-title: experience
+title: Experience
 description: Research, industry, teaching, mentoring, and applied engineering experience.
 nav: true
 nav_order: 2
+hide_header: true
 ---
 
 <div class="academic-page">
