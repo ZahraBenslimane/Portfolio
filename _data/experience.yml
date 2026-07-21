@@ -25,11 +25,12 @@
     Worked on AI-based quality-control systems for manufacturing, translating plant
     needs into scalable computer-vision and MLOps workflows.
   highlights:
-    - Helped frame industrial AI problems, project scope, and success criteria with factory stakeholders.
-    - Contributed to MLOps practices for deploying AI solutions at larger scale.
-    - Used Google Cloud Platform, Vertex AI, and Visual Inspection AI for visual inspection systems.
+    - Framed complex manufacturing problems by defining project scope and factory requirements.
+    - Developed and evaluated deep learning models for industrial visual inspection systems.
+    - Collaborated with startups and external partners to integrate AI solutions into industrial manufacturing workflows.
+    - Contributed to the development of an MLOps platform for large-scale deployment of AI solutions and model monitoring
+
   stack:
-    - Computer vision
-    - Google Cloud Platform
-    - Vertex AI
     - MLOps
+    - Anomaly Detection
+    - Manufacturing Quality Control
