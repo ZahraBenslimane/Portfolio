@@ -14,7 +14,7 @@ social: false  # social icons are shown below the portrait
 
 <section class="home-hero">
   <div class="home-hero__copy">
-    <p class="home-hero__eyebrow">Ph.D. student · AI for speech and audio · Paris, France</p>
+    <p class="home-hero__eyebrow">Ph.D. student · Paris, France</p>
     <h2>Improving speech understanding with neural networks for real-time embedded systems.</h2>
     <p>
       I am Zahra Benslimane, a final-year Ph.D. student working on embedded AI
