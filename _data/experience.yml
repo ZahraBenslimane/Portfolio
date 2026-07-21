@@ -1,20 +1,20 @@
-- role: Ph.D. Student
-  organization: Doctoral research
-  location: France
-  period: Current
-  type: Research
-  summary: >
-    Researching machine learning methods for speech and audio systems, with a strong
-    interest in efficient training, reproducible evaluation, and deployable inference.
-  highlights:
-    - Designing experiments and evaluation protocols for audio-oriented deep learning models.
-    - Working on reproducible training and inference pipelines for research iteration.
-    - Connecting model quality, computational cost, and deployment constraints.
-  stack:
-    - Python
-    - PyTorch
-    - Speech/audio processing
-    - Experiment tracking
+# - role: Ph.D. Student
+#   organization: Doctoral research
+#   location: France
+#   period: Current
+#   type: Research
+#   summary: >
+#     Researching machine learning methods for speech and audio systems, with a strong
+#     interest in efficient training, reproducible evaluation, and deployable inference.
+#   highlights:
+#     - Designing experiments and evaluation protocols for audio-oriented deep learning models.
+#     - Working on reproducible training and inference pipelines for research iteration.
+#     - Connecting model quality, computational cost, and deployment constraints.
+#   stack:
+#     - Python
+#     - PyTorch
+#     - Speech/audio processing
+#     - Experiment tracking
 
 - role: AI Engineer Apprentice
   organization: Renault Group
