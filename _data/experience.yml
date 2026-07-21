@@ -25,12 +25,10 @@
     Part-time (2days/week) during academic periods, full-time during university breaks. 
     Worked on quality-control systems for manufacturing, translating plant
     needs into scalable computer-vision and MLOps workflows.
-  highlights:
     - Framed complex manufacturing problems by defining project scope and factory requirements.
     - Developed and evaluated deep learning models for industrial visual inspection systems.
     - Collaborated with startups and external partners to integrate AI solutions into industrial manufacturing workflows.
     - Contributed to the development of an MLOps platform for large-scale deployment of AI solutions and model monitoring
-
   stack:
     - MLOps
     - Anomaly Detection
