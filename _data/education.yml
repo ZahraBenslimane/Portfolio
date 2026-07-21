@@ -29,10 +29,6 @@
     Graduate training across AI, signal processing, computer vision, embedded systems,
     and applied mathematics, with projects spanning neural network compression,
     sound source localization, image analysis, and audio source separation.
-  courses:
-    - TensorFlow, PyTorch, Keras, pandas, scikit-learn
-    - CNNs, RNNs, autoencoders, GANs, pruning, folding, quantization
-    - Beamforming, TDOA estimation, NMF, time-frequency analysis
   details:
     - title: Machine learning and deep learning
       items:
