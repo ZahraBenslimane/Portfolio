@@ -17,7 +17,7 @@ social: false  # social icons are shown below the portrait
     <p class="home-hero__eyebrow">Ph.D. student · AI for speech and audio · Paris, France</p>
     <h2>Improving speech understanding with neural networks for real-time embedded systems.</h2>
     <p>
-      I am Zahra Hafida Benslimane, a final-year Ph.D. student working on embedded AI
+      I am Zahra Benslimane, a final-year Ph.D. student working on embedded AI
       for speech processing. My research focuses on neural networks for real-time
       speech enhancement, with an emphasis on binaural and multi-microphone audio,
       low-latency inference, model compression, and resource-constrained deployment.
@@ -39,7 +39,6 @@ social: false  # social icons are shown below the portrait
   </div>
   <figure class="home-hero__media">
     <img src="{{ '/assets/img/prof_pic.jpg' | relative_url }}" alt="Portrait of Zahra Benslimane">
-    <figcaption>AI · signal processing · research engineering</figcaption>
     <div class="home-hero__contact">
       <p>{{ site.contact_note }}</p>
       <div class="home-hero__contact-icons" aria-label="Contact and social links">
