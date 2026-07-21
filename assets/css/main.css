@@ -412,6 +412,11 @@ footer.sticky-bottom {
   font-size: 5rem;
 }
 
+.blog-header h1 {
+  font-size: 3.2rem;
+  line-height: 1.1;
+}
+
 .tag-list {
   border-bottom: 1px solid var(--global-divider-color);
   text-align: center;
@@ -1504,6 +1509,9 @@ html[data-theme=dark] {
   }
   .header-bar h1 {
     font-size: 3rem;
+  }
+  .blog-header h1 {
+    font-size: 2.25rem;
   }
 }
 /*******************************************************************************
