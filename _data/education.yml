@@ -1,21 +1,34 @@
 - degree: Ph.D. Student
-  institution: Doctoral research
+  institution: REFINED project · CEA, LORIA, Hearing Institute
   location: France
   period: Current
+  focus:
+    - Speech enhancement
+    - Binaural audio
+    - Embedded AI
+    - Model compression
+    - Efficient inference
+    - Hearing-assistance systems
   summary: >
-    Current doctoral work centered on machine learning systems for speech and audio,
-    with an emphasis on reproducible experiments, efficient models, and research code
-    that can move from notebooks to usable pipelines.
+    Doctoral research on neural networks for improving speech understanding in
+    real-time embedded systems. The project targets low-latency, low-computational-cost
+    binaural and multi-microphone speech enhancement for resource-constrained
+    hearing-assistance devices.
   activities:
-    - Building and evaluating deep learning models for audio and speech processing tasks.
-    - Studying model compression, robustness, and deployment constraints for real-world systems.
-    - Maintaining research tooling for experiments, metrics, and inference workflows.
+    - Building and evaluating neural speech-enhancement models for real-time audio processing.
+    - Studying model compression, quantization, and efficient inference for embedded deployment.
+    - Designing reproducible experiments that connect speech quality, intelligibility, latency, and computational cost.
   details:
+    - title: Ph.D. project
+      items:
+        - Developing efficient AI methods for hearing-assistance systems and low-power audio devices.
+        - Working with binaural and multi-microphone signals to improve speech understanding in noisy environments.
+        - Balancing audio quality, model size, latency, and deployment constraints for real-world hardware.
     - title: Research toolkit
       items:
-        - Reproducible training, evaluation, and inference workflows.
-        - Audio-oriented deep learning experiments and metrics.
-        - Model quality, computational cost, and deployment-aware analysis.
+        - Reproducible training, evaluation, and inference workflows for speech/audio models.
+        - Deployment-aware analysis of model quality, computational cost, and real-time behavior.
+        - Experiment tooling for metrics, ablations, and comparison across model configurations.
 
 - degree: M.Sc. in Smart Systems Engineering
   institution: Sorbonne University
