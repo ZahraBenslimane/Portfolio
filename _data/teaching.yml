@@ -1,26 +1,41 @@
-- title: Workshop Materials
-  institution: IUT de cachan, Université Paris-Saclay
+- title: Python Programming and Numerical Methods
+  institution: IUT de Cachan, Université Paris-Saclay
   period: 2026
+  role: Teaching
   description: >
-    Short technical notes, demos, and notebooks can be linked here when they are ready
-    to share with students, collaborators, or readers of the blog.
-  # topics:
-  #   - Paper summaries
-  #   - Model compression notes
-  #   - Speech enhancement experiments
-  #   - Tools for clean research code
+    Delivered 32 hours of introductory teaching in Python programming and numerical
+    methods. The course combined fundamental programming concepts, scientific computing,
+    numerical problem-solving, and practical exercises designed for engineering students.
+  topics:
+    - Python programming
+    - Numerical methods
+    - Scientific computing
+    - Engineering exercises
 
-- title: Teaching and Mentoring
+- title: C Programming Teaching and Mentoring
   institution: ENSTA Paris
   period: 2025
+  role: Teaching
   description: >
-    A place to collect future teaching assistant work, tutorials, lab sessions,
-    and mentoring material around machine learning, signal processing, and research coding.
+    Contributed to C programming teaching, tutorials, laboratory sessions, and student
+    support, with an emphasis on programming fundamentals, debugging, and practical
+    problem-solving for engineering students.
+  topics:
+    - C programming
+    - Tutorials and lab sessions
+    - Student support
+    - Programming fundamentals
 
-
-- title: Workshop Materials
-  institution: IUT de cachan, Université Paris-Saclay
+- title: Python Programming and Numerical Methods
+  institution: IUT de Cachan, Université Paris-Saclay
   period: 2025
+  role: Teaching
   description: >
-    Short technical notes, demos, and notebooks can be linked here when they are ready
-    to share with students, collaborators, or readers of the blog.
+    Delivered 32 hours of introductory teaching in Python programming and numerical
+    methods, covering core programming principles, scientific computing tools, and
+    practical numerical techniques.
+  topics:
+    - Python programming
+    - Numerical methods
+    - Scientific computing tools
+    - Practical numerical techniques
