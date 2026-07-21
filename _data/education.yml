@@ -2,12 +2,12 @@
   institution: REFINED project · CEA, LORIA, Hearing Institute
   location: France
   period: Current
-  focus:
-    - Multichannel Speech enhancement
-    - Binaural audio
-    - Model compression
-    - Efficient inference
-    - Hearing-assistance systems
+  # focus:
+  #   - Multichannel Speech enhancement
+  #   - Binaural audio
+  #   - Model compression
+  #   - Efficient inference
+  #   - Hearing-assistance systems
   summary: >
     Doctoral research on neural networks for improving speech understanding in
     real-time embedded systems. The project targets low-latency, low-computational-cost
