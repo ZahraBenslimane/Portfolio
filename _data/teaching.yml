@@ -4,8 +4,7 @@
   role: Teaching
   description: >
     Delivered 32 hours of introductory teaching in Python programming and numerical
-    methods. The course combined fundamental programming concepts, scientific computing,
-    numerical problem-solving, and practical exercises designed for engineering students.
+    methods designed for engineering students.
   topics:
     - Python programming
     - Numerical methods
@@ -17,9 +16,8 @@
   period: 2025
   role: Teaching
   description: >
-    Contributed to C programming teaching, tutorials, laboratory sessions, and student
-    support, with an emphasis on programming fundamentals, debugging, and practical
-    problem-solving for engineering students.
+    Contributed to C programming teaching and laboratory sessions focusing on programming fundamentals, debugging, and practical
+    problem-solving.
   topics:
     - C programming
     - Tutorials and lab sessions
@@ -32,8 +30,7 @@
   role: Teaching
   description: >
     Delivered 32 hours of introductory teaching in Python programming and numerical
-    methods, covering core programming principles, scientific computing tools, and
-    practical numerical techniques.
+    methods designed for engineering students.
   topics:
     - Python programming
     - Numerical methods
