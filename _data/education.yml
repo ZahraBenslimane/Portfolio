@@ -32,17 +32,18 @@
      - title: Machine learning and deep learning
        items:
         - Studied MLPs, CNNs, RNNs, autoencoders, GANs, and transformers.
-        - Built and evaluated ML models using TensorFlow, PyTorch, Keras, pandas, and scikit-learn.
-        - Applied data preprocessing, feature engineering, model training, validation, and performance evaluation.
+        - Built ML models using TensorFlow, PyTorch, Keras, pandas, and scikit-learn.
         - Applied deep learning to vision and natural-language-processing tasks.
         - Explored neural-network compression techniques, including folding, pruning, and quantization.
 
      - title: Image processing and computer vision
        items:
-        - Applied image stitching, blob detection, region-of-interest extraction, filtering, segmentation, and feature-based analysis.
+        - Applied image stitching, feature extraction, filtering, and segmentation.
         - Studied motion detection and optical-flow estimation using block matching, Lucas-Kanade, and Horn-Schunck methods.
         - Implemented object tracking using Kalman and particle filters.
         - Developed real-time image-processing applications on an NVIDIA Jetson Nano using OpenCV, Pillow, and scikit-image.
+        - Worked with camera calibration, stereo vision, projective geometry.
+
      - title: Audio and multimodal signal processing
        items:
         - Studied digital audio acquisition, time-frequency analysis, filtering, and compression.
