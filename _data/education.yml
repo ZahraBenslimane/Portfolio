@@ -19,7 +19,6 @@
         - Developing and evaluating neural speech-enhancement models for real-time audio processing.
         - Working with binaural and multi-microphone signals to improve speech understanding in noisy environments.
         - Studying model compression, quantization, and efficient inference for embedded hearing-assistance devices.
-        - Designing reproducible experiments that connect speech quality, intelligibility, latency, model size, and computational cost.
 
 - degree: M.Sc. in Smart Systems Engineering
   institution: Sorbonne University
