@@ -71,14 +71,11 @@
         - Designed, simulated, and implemented FPGA-based digital circuits in VHDL using Xilinx Vivado and ModelSim on an Artix-7 board.
         - Worked with finite-state machines, memory systems, arithmetic units, and processor architectures.
         - Programmed microcontrollers in C using interrupts, timers, memory-mapped peripherals, and communication interfaces.
-        - Developed and debugged embedded software using Keil µVision.
     - title: Image and audio signal processing
       items:
-        - Studied complete image and audio acquisition chains, from cameras and microphones to digital processing and signal reproduction.
+        - Studied complete image and audio acquisition chains, from cameras and microphones to digital processing.
         - Studied optical systems, CCD and CMOS sensors, image formation, acquisition parameters, and sensor noise.
         - Explored acoustics and psychoacoustics, microphone characteristics, sampling, quantization, aliasing, and signal-to-noise ratio.
-        - Developed a real-time audio acquisition and processing pipeline.
-        - Applied Fourier analysis, spectrograms, digital filtering, and audio effects using MATLAB and Simulink
     - title: Electromagnetism and electrical systems
       items:
         - Covered electrostatics, magnetism, electromagnetic propagation, wave behavior, and antenna radiation.
