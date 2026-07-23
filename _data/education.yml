@@ -1,5 +1,5 @@
 - degree: Ph.D. Student
-  institution: REFINED project · CEA, LORIA, Hearing Institute
+  Institution: CEA-LIST, Embedded AI Laboratory
   location: France
   period: Current
   # focus:
@@ -30,9 +30,7 @@
   #  - Computer vision
   #  - Audio signal processing
   summary: >
-    Graduate training across AI, signal processing, computer vision, embedded systems,
-    and applied mathematics, with projects spanning neural network compression,
-    sound source localization, image analysis, and audio source separation.
+    A multidisciplinary program combining artificial intelligence, signal processing, computer vision, robotics, and embedded systems.
   details:
     - title: Machine learning and deep learning
       items:
@@ -56,7 +54,7 @@
   location: Paris, France
   period: 2019-2021
   summary: >
-    Undergraduate foundation in electronic circuits, microprocessors, FPGA design,
+    Undergraduate degree in electronic circuits, microprocessors, FPGA design,
     signal processing, control theory, robotics, and hardware-oriented prototyping.
   details:
     - title: Digital systems and microprocessors
