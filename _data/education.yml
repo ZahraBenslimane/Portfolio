@@ -31,11 +31,12 @@
   details:
      - title: Machine learning and deep learning
        items:
-        - Built and evaluated machine-learning models using TensorFlow, PyTorch, Keras, pandas, and scikit-learn.
         - Studied MLPs, CNNs, RNNs, autoencoders, GANs, sequence-to-sequence architectures and attention mechanisms.
+        - Built and evaluated machine-learning models using TensorFlow, PyTorch, Keras, pandas, and scikit-learn.
         - Applied data preprocessing, feature engineering, model training, validation, and performance evaluation.
-        - Explored neural-network compression techniques, including folding, pruning, and quantization.
         - Applied deep learning to vision and natural-language-processing tasks.
+        - Explored neural-network compression techniques, including folding, pruning, and quantization.
+
      - title: Image processing and computer vision
        items:
         - Applied image stitching, blob detection, region-of-interest extraction, filtering, segmentation, and feature-based analysis.
