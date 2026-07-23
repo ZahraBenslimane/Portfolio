@@ -38,7 +38,7 @@ social: false  # social icons are shown below the portrait
     </div>
   </div>
   <figure class="home-hero__media">
-    <img src="{{ '/assets/img/prof_pic5.jpg' | relative_url }}" alt="Portrait of Zahra Benslimane">
+    <img src="{{ '/assets/img/prof_pic5.JPG' | relative_url }}" alt="Portrait of Zahra Benslimane">
     <div class="home-hero__contact">
       <p>{{ site.contact_note }}</p>
       <div class="home-hero__contact-icons" aria-label="Contact and social links">
