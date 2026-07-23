@@ -5,11 +5,6 @@
   description: >
     Delivered 32 hours of introductory teaching in Python programming and numerical
     methods designed for engineering students.
-  topics:
-    - Python programming
-    - Numerical methods
-    - Scientific computing
-    - Engineering exercises
 
 - title: C Programming
   institution: ENSTA Paris
@@ -18,11 +13,6 @@
   description: >
     Contributed to C programming teaching and laboratory sessions focusing on programming fundamentals, debugging, and practical
     problem-solving.
-  topics:
-    - C programming
-    - Tutorials and lab sessions
-    - Student support
-    - Programming fundamentals
 
 - title: Python Programming and Numerical Methods
   institution: IUT de Cachan, Université Paris-Saclay
@@ -31,8 +21,3 @@
   description: >
     Delivered 32 hours of introductory teaching in Python programming and numerical
     methods designed for engineering students.
-  topics:
-    - Python programming
-    - Numerical methods
-    - Scientific computing tools
-    - Practical numerical techniques
