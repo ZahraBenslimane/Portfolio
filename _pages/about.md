@@ -17,10 +17,11 @@ social: false  # social icons are shown below the portrait
     <p class="home-hero__eyebrow">Ph.D. student · Paris, France</p>
     <h2>Improving speech understanding with neural networks for real-time embedded systems.</h2>
     <p>
-      I am Zahra Benslimane, a final-year Ph.D. student working on embedded AI
-      for speech processing. My research focuses on neural networks for real-time
-      speech enhancement, with an emphasis on binaural and multi-microphone audio,
-      low-latency inference, model compression, and resource-constrained deployment.
+      I am Zahra Benslimane, a final-year Ph.D. student at CEA-LIST working on
+      embedded AI for speech processing. I develop binaural and multi-microphone
+      speech-enhancement systems, with a focus on low-latency inference, model
+      compression, and deployment on resource-constrained hearing-assistance
+      devices.
     </p>
 
     <p>

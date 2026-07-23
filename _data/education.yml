@@ -9,10 +9,8 @@
   #   - Efficient inference
   #   - Hearing-assistance systems
   summary: >
-    Doctoral research on neural networks for improving speech understanding in
-    real-time embedded systems. The project targets low-latency, low-computational-cost
-    binaural and multi-microphone speech enhancement for resource-constrained
-    hearing-assistance devices.
+     Doctoral research on computationally efficient neural speech enhancement for real-time embedded hearing-assistance systems. 
+     The work focuses on binaural and multi-microphone processing, low-latency inference, model compression, and deployment on resource-constrained devices.
   details:
     - title: Ph.D. project
       items:
