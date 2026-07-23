@@ -127,7 +127,7 @@ hide_header: true
           <p>{{ project.summary }}</p>
 
           {% if project.stack %}
-          <ul class="chip-list">
+          <ul class="project-keywords" aria-label="Project keywords">
             {% for item in project.stack %}
             <li>{{ item }}</li>
             {% endfor %}
