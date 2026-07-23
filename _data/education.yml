@@ -76,8 +76,8 @@
         - Studied complete image and audio acquisition chains, from cameras and microphones to digital processing and signal reproduction.
         - Studied optical systems, CCD and CMOS sensors, image formation, acquisition parameters, and sensor noise.
         - Explored acoustics and psychoacoustics, microphone characteristics, sampling, quantization, aliasing, and signal-to-noise ratio.
-        - Applied Fourier analysis, spectrograms, digital filtering, and audio effects using MATLAB and Simulink.
         - Developed a real-time audio acquisition and processing pipeline.
+        - Applied Fourier analysis, spectrograms, digital filtering, and audio effects using MATLAB and Simulink
     - title: Electromagnetism and electrical systems
       items:
         - Covered electrostatics, magnetism, electromagnetic propagation, wave behavior, and antenna radiation.
