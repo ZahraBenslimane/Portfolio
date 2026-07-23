@@ -31,8 +31,8 @@
   details:
      - title: Machine learning and deep learning
        items:
-        - Studied MLPs, CNNs, RNNs, autoencoders, GANs, sequence-to-sequence architectures and attention mechanisms.
-        - Built and evaluated machine-learning models using TensorFlow, PyTorch, Keras, pandas, and scikit-learn.
+        - Studied MLPs, CNNs, RNNs, autoencoders, GANs, and transformers.
+        - Built and evaluated ML models using TensorFlow, PyTorch, Keras, pandas, and scikit-learn.
         - Applied data preprocessing, feature engineering, model training, validation, and performance evaluation.
         - Applied deep learning to vision and natural-language-processing tasks.
         - Explored neural-network compression techniques, including folding, pruning, and quantization.
