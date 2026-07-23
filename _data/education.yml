@@ -32,22 +32,25 @@
   summary: >
     A multidisciplinary program combining artificial intelligence, signal processing, computer vision, robotics, and embedded systems.
   details:
-    - title: Machine learning and deep learning
-      items:
-        - TensorFlow, PyTorch, Keras, pandas, and scikit-learn.
-        - MLPs, CNNs, RNNs, autoencoders, and GANs.
-        - Neural network compression methods including folding, pruning, and quantization.
-    - title: Image processing and computer vision
-      items:
-        - Image stitching, blob detection, regions of interest, and feature-based image analysis.
-        - Motion detection and estimation with block matching, Lucas-Kanade, and Horn-Schunck.
-        - Object tracking with Kalman and particle filters.
-        - Real-time image processing on Nvidia Jetson Nano with OpenCV, Pillow, and scikit-image.
-    - title: Audio signal processing
-      items:
-        - Time-frequency analysis and audio compression.
-        - Beamforming and Time Delay of Arrival estimation for sound source localization.
-        - Audio source separation with Non-negative Matrix Factorization.
+     - title: Machine learning and deep learning
+       items:
+        - Built and evaluated machine-learning models using TensorFlow, PyTorch, Keras, pandas, and scikit-learn.
+        - Studied MLPs, CNNs, RNNs, autoencoders, GANs, sequence-to-sequence architectures and attention mechanisms.
+        - Applied data preprocessing, feature engineering, model training, validation, and performance evaluation.
+        - Explored neural-network compression techniques, including folding, pruning, and quantization.
+        - Applied deep learning to vision and natural-language-processing tasks.
+     - title: Image processing and computer vision
+       items:
+        - Applied image stitching, blob detection, region-of-interest extraction, filtering, segmentation, and feature-based analysis.
+        - Studied motion detection and optical-flow estimation using block matching, Lucas-Kanade, and Horn-Schunck methods.
+        - Implemented object tracking using Kalman and particle filters.
+        - Developed real-time image-processing applications on an NVIDIA Jetson Nano using OpenCV, Pillow, and scikit-image.
+     - title: Audio and multimodal signal processing
+       items:
+        - Studied digital audio acquisition, time-frequency analysis, filtering, and compression.
+        - Applied Fourier transforms and spectrogram-based representations to analyze non-stationary audio signals.
+        - Used beamforming and Time Difference of Arrival estimation for sound-source localization.
+        - Implemented audio source separation using Non-negative Matrix Factorization.
 
 - degree: B.Sc. in Electronics, Electrical Engineering, and Automatics
   institution: Sorbonne University
