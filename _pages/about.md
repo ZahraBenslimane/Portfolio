@@ -28,7 +28,7 @@ social: false  # social icons are shown below the portrait
       My Ph.D. is part of the REFINED project, <em>REal-time artiFicial INtelligence
       for hEaring aiDs</em>, funded by the French National Research Agency
       (ANR-21-CE19-0043). The project brings together the
-      Embedded AI Laboratory (LIAE), within
+      Embedded AI Laboratory, within
       <a href="https://hal.science/DSCIN" target="_blank" rel="external nofollow noopener">CEA-LIST</a>,
       the <a href="https://www.loria.fr/fr/la-recherche/les-equipes/multispeech/" target="_blank" rel="external nofollow noopener">Multispeech team at LORIA</a>,
       and the <a href="https://www.institut-audition.fr/en/recherche" target="_blank" rel="external nofollow noopener">Hearing Institute</a>
