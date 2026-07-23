@@ -71,11 +71,6 @@
         - Performed simulation, synthesis, and hardware validation using Xilinx Vivado and ModelSim.
         - Programmed microcontrollers in C and C++, working with interrupts, timers, memory, peripherals, and communication interfaces.
         - Used Keil uVision for embedded software development and debugging.
-    - title: Electromagnetism and electrical systems
-      items:
-        - Covered electrostatics, magnetism, electromagnetic propagation, wave behavior, and antenna radiation.
-        - Studied electrical energy sources, actuators, sensors, and electromechanical systems.
-        - Used 4NEC2 for antenna modeling and electromagnetic analysis.
     - title: Image and audio signal processing
       items:
         - Studied complete image and audio acquisition chains, from cameras and microphones to digital processing and signal reproduction.
@@ -84,6 +79,11 @@
         - Explored acoustics and psychoacoustics, microphone characteristics, sampling, quantization, aliasing, and signal-to-noise ratio.
         - Applied Fourier analysis, spectrograms, digital filtering, and audio effects using MATLAB and Simulink.
         - Developed a real-time audio acquisition, processing, and reproduction pipeline.
+    - title: Electromagnetism and electrical systems
+      items:
+        - Covered electrostatics, magnetism, electromagnetic propagation, wave behavior, and antenna radiation.
+        - Studied electrical energy sources, actuators, sensors, and electromechanical systems.
+        - Used 4NEC2 for antenna modeling and electromagnetic analysis.
     - title: Numerical methods and engineering practice
       items:
         - Applied numerical methods with MATLAB and Python to solve engineering and physical-system problems.
