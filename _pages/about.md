@@ -22,9 +22,9 @@ social: false  # social icons are shown below the portrait
       speech-enhancement systems, with a focus on low-latency inference, model
       compression, and deployment on resource-constrained hearing-assistance
       devices.
-    </p>
+     </p>
 
-    <p>
+   <p>
       My Ph.D. is part of the REFINED project, <em>REal-time artiFicial INtelligence
       for hEaring aiDs</em>, funded by the French National Research Agency. The project brings together the
       Embedded AI Laboratory, within
@@ -33,11 +33,12 @@ social: false  # social icons are shown below the portrait
       and the <a href="https://www.institut-audition.fr/en/recherche" target="_blank" rel="external nofollow noopener">Hearing Institute</a>
       to develop efficient AI-based hearing-assistance systems that can run on
       real-world embedded hardware.
-    </p>
+     </p>
     
     <div class="home-hero__actions">
-      <a class="btn-portfolio" href="{{ '/assets/pdf/example_pdf.pdf' | relative_url }}" download><i class="fas fa-file-pdf"></i> Download CV</a>
+      <a class="btn-portfolio" href="{{ '/assets/pdf/CV_zahra_Benslimane.pdf' | relative_url }}" download><i class="fas fa-file-pdf"></i> Download CV</a>
     </div>
+
   </div>
   <figure class="home-hero__media">
     <img src="{{ '/assets/img/prof_pic5.JPG' | relative_url }}" alt="Portrait of Zahra Benslimane">
